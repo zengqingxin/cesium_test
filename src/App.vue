@@ -1,17 +1,22 @@
 <template>
-  <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <div >
+    <!--<HelloWorld msg="Welcome to Your Vue.js App"/>-->
+    <!-- <cesiumViewer/> -->
+    <gltfContal/>
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
-
+// @ is an alias to /src
+// import HelloWorld from '@/components/HelloWorld.vue'
+// import cesiumViewer from '@/components/cesiumViewer.vue'
+import gltfContal from '@/components/gltfContral.vue'
 export default {
-  name: 'App',
+  // name: 'Home',
   components: {
-    HelloWorld
+    // HelloWorld,
+    // cesiumViewer,
+    gltfContal
   }
 }
 </script>
