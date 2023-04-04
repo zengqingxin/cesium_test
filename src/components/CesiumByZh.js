@@ -15,14 +15,14 @@ export default class CesiumByZh {
                 // @ts-ignore
                 CesiumByZh.viewer = new CesiumByZh.Cesium.Viewer(id, {
                     //天地图(这里是我自己申请的天地图Key,想用天地图的可以自己申请,很简单免费的)
-                    imageryProvider: new CesiumByZh.Cesium.WebMapTileServiceImageryProvider({
-                        url: 'http://t0.tianditu.gov.cn/img_w/wmts?tk=30cc127d81b6563a4f9eb761a01aa5a6',
-                        layer: 'img',
-                        style: 'default',
-                        tileMatrixSetID: 'w',
-                        format: 'tiles',
-                        maximumLevel: 19
-                    }),
+                    // imageryProvider: new CesiumByZh.Cesium.WebMapTileServiceImageryProvider({
+                    //     url: 'http://t0.tianditu.gov.cn/img_w/wmts?tk=30cc127d81b6563a4f9eb761a01aa5a6',
+                    //     layer: 'img',
+                    //     style: 'default',
+                    //     tileMatrixSetID: 'w',
+                    //     format: 'tiles',
+                    //     maximumLevel: 19
+                    // }),
                     animation: false, // 是否显示动画控件
                     baseLayerPicker: false, // 是否显示图层选择控件
                     geocoder: false, // 是否显示地名查找控件
@@ -38,8 +38,9 @@ export default class CesiumByZh {
                 //开启深度地形测试
                 CesiumByZh.viewer.scene.globe.depthTestAgainstTerrain = true;
                
-                CesiumByZh.Cesium.Ion.defaultAccessToken = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJqdGkiOiI2MzY5NWI4YS02Y2IwLTRhMGYtOGE3MS03NGY5N2Q3NDJjODUiLCJpZCI6MzY0MjYsImlhdCI6MTYwMzQ0MDM1Nn0.oIxHAr3gEFCqTPO7BepTyoPQN77pXH3zRUqY4X7IpQM';
+                CesiumByZh.Cesium.Ion.defaultAccessToken = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJqdGkiOiJjMmMyNGVlZi03N2YxLTQxZjUtYjcwZC1hYTc3YjgxNDBlNzkiLCJpZCI6MTAzNDc2LCJpYXQiOjE2NTk1MTYyNjR9.z1YkZ40RJPfzgm4SRWGL-nHZEASeA4cKlBd1cHA5_GU';
                 //是否显示大气层
+                
                 CesiumByZh.viewer.scene.globe.showGroundAtmosphere = false;
                 //是否开启实时光照
                 CesiumByZh.viewer.scene.globe.enableLighting = false;
