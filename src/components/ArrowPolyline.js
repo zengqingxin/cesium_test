@@ -53,7 +53,8 @@ export default class ArrowPolyline {
     */
     static translate =  (Cesium,geometry, offset)=> {
         const scratchOffset = new Cesium.Cartesian3();
-        if (offset) {
+
+        if (offset instanceof Array) {
             scratchOffset.x = offset[0];
             scratchOffset.y = offset[1];
             scratchOffset.z = offset[2];

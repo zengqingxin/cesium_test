@@ -14,7 +14,7 @@ export default class CesiumByZh {
                 CesiumByZh.Cesium=window.Cesium;
                 // @ts-ignore
                 CesiumByZh.viewer = new CesiumByZh.Cesium.Viewer(id, {
-                    //天地图(这里是我自己申请的天地图Key,想用天地图的可以自己申请,很简单免费的)
+                    //天地图
                     // imageryProvider: new CesiumByZh.Cesium.WebMapTileServiceImageryProvider({
                     //     url: 'http://t0.tianditu.gov.cn/img_w/wmts?tk=30cc127d81b6563a4f9eb761a01aa5a6',
                     //     layer: 'img',
@@ -38,12 +38,14 @@ export default class CesiumByZh {
                 //开启深度地形测试
                 CesiumByZh.viewer.scene.globe.depthTestAgainstTerrain = true;
                
-                CesiumByZh.Cesium.Ion.defaultAccessToken = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJqdGkiOiJjMmMyNGVlZi03N2YxLTQxZjUtYjcwZC1hYTc3YjgxNDBlNzkiLCJpZCI6MTAzNDc2LCJpYXQiOjE2NTk1MTYyNjR9.z1YkZ40RJPfzgm4SRWGL-nHZEASeA4cKlBd1cHA5_GU';
+                CesiumByZh.Cesium.Ion.defaultAccessToken = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJqdGkiOiJjMmMyNGVlZi03N2YxLTQxZjUtYjcwZC1hYTc3YjgxNDBlNzkiLCJpZCI6MTAzNDc2LCJpYXQiOjE2NTk1MTYyNjR9.z1YkZ40RJPfzgm4SRWGL-nHZEASeA4cKlBd1cHA5_GU";
                 //是否显示大气层
-                
                 CesiumByZh.viewer.scene.globe.showGroundAtmosphere = false;
                 //是否开启实时光照
                 CesiumByZh.viewer.scene.globe.enableLighting = false;
+                // 去除logo
+                CesiumByZh.viewer.cesiumWidget.creditContainer.style.display = "none";
+
                 //是否显示帧数
                 CesiumByZh.viewer.scene.debugShowFramesPerSecond = true;
                 //修改home位置
