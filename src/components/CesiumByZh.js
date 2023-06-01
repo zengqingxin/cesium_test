@@ -15,14 +15,14 @@ export default class CesiumByZh {
                 // @ts-ignore
                 CesiumByZh.viewer = new CesiumByZh.Cesium.Viewer(id, {
                     //天地图
-                    // imageryProvider: new CesiumByZh.Cesium.WebMapTileServiceImageryProvider({
-                    //     url: 'http://t0.tianditu.gov.cn/img_w/wmts?tk=30cc127d81b6563a4f9eb761a01aa5a6',
-                    //     layer: 'img',
-                    //     style: 'default',
-                    //     tileMatrixSetID: 'w',
-                    //     format: 'tiles',
-                    //     maximumLevel: 19
-                    // }),
+                    imageryProvider: new CesiumByZh.Cesium.WebMapTileServiceImageryProvider({
+                        url: 'http://t0.tianditu.gov.cn/img_w/wmts?tk=30cc127d81b6563a4f9eb761a01aa5a6',
+                        layer: 'img',
+                        style: 'default',
+                        tileMatrixSetID: 'w',
+                        format: 'tiles',
+                        maximumLevel: 19
+                    }),
                     animation: false, // 是否显示动画控件
                     baseLayerPicker: false, // 是否显示图层选择控件
                     geocoder: false, // 是否显示地名查找控件
@@ -38,7 +38,7 @@ export default class CesiumByZh {
                 //开启深度地形测试
                 CesiumByZh.viewer.scene.globe.depthTestAgainstTerrain = true;
                
-                CesiumByZh.Cesium.Ion.defaultAccessToken = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJqdGkiOiJjMmMyNGVlZi03N2YxLTQxZjUtYjcwZC1hYTc3YjgxNDBlNzkiLCJpZCI6MTAzNDc2LCJpYXQiOjE2NTk1MTYyNjR9.z1YkZ40RJPfzgm4SRWGL-nHZEASeA4cKlBd1cHA5_GU";
+                // CesiumByZh.Cesium.Ion.defaultAccessToken = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJqdGkiOiJjMmMyNGVlZi03N2YxLTQxZjUtYjcwZC1hYTc3YjgxNDBlNzkiLCJpZCI6MTAzNDc2LCJpYXQiOjE2NTk1MTYyNjR9.z1YkZ40RJPfzgm4SRWGL-nHZEASeA4cKlBd1cHA5_GU";
                 //是否显示大气层
                 CesiumByZh.viewer.scene.globe.showGroundAtmosphere = false;
                 //是否开启实时光照

@@ -3,7 +3,8 @@
     <!--<HelloWorld msg="Welcome to Your Vue.js App"/>-->
     <!-- <cesiumViewer/> -->
     <!-- <gltfContal/> -->
-    <gltfContal2/>
+    <!-- <gltfContal2/> -->
+    <demo/>
   </div>
 </template>
 
@@ -12,13 +13,14 @@
 // import HelloWorld from '@/components/HelloWorld.vue'
 // import cesiumViewer from '@/components/cesiumViewer.vue'
 // import gltfContal from '@/components/gltfContral.vue'
-import gltfContal2 from '@/components/gltfContral2.vue'
+// import gltfContal2 from '@/components/gltfContral2.vue'
+import demo from '@/components/demo.vue'
 export default {
   // name: 'Home',
   components: {
     // HelloWorld,
     // cesiumViewer,
-    gltfContal2
+    demo
   }
 }
 </script>
