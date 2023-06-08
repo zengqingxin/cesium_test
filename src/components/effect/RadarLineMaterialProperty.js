@@ -95,3 +95,18 @@ Cesium.Material._materialCache.addMaterial(Cesium.Material.RadarLineMaterialType
         return true;
     }
 })
+
+//引入js后 使用示例
+// 雷达线
+// viewer.entities.add({
+//     position: Cesium.Cartesian3.fromDegrees(113.9236839, 22.528061),
+//     name: '雷达线',
+//     ellipse: {
+//         semiMajorAxis: 1000.0,
+//         semiMinorAxis: 1000.0,
+//         material: new Cesium.RadarLineMaterialProperty({
+//             color: new Cesium.Color(1.0, 1.0, 0.0, 0.7),
+//             speed: 20.0
+//         })
+//     }
+//  })

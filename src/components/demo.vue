@@ -9,8 +9,17 @@ import * as turf from "@turf/turf";
 import { LineFlowMaterialProperty } from "./effect/LineFlowMaterialProperty";
 import { CircleRippleMaterialProperty } from "./effect/CircleRippleMaterialProperty";
 import { WallDiffuseMaterialProperty } from "./effect/WallDiffuseMaterialProperty";
-import { DynamicWallMaterialProperty } from "./effect/DynamicWallMaterialProperty";
-import { TrailLineMaterialProperty } from "./effect/TrailLineMaterialProperty";
+// import { DynamicWallMaterialProperty } from "./effect/DynamicWallMaterialProperty";
+import { RadarLineMaterialProperty } from "./effect/RadarLineMaterialProperty";
+import { EllipsoidTrailMaterialProperty } from "./effect/EllipsoidTrailMaterialProperty";
+//流动纹理2
+import { PolylineTrailLinkMaterialProperty } from "./effect/PolylineTrailLinkMaterialProperty";
+// 流动纹理1
+import  {FlowLineMaterialProperty}  from "./effect/FlowLineMaterialProperty";
+
+import TerrainClipPlan  from "./effect/TerrainClipPlan2";
+
+
 
 export default {
   name: "demo",
@@ -46,11 +55,11 @@ export default {
       ],
       5
     );
-    // this.loadlineData(
-    //   CesiumByZh.viewer,
-    //   CesiumByZh.Cesium,
-    //   [120.9677706, 30.7985748, 110.2, 34.55]
-    // );
+    this.loadlineData(
+      CesiumByZh.viewer,
+      CesiumByZh.Cesium,
+      [120.9677706, 30.7985748, 110.2, 34.55]
+    );
     this.loadPolygonData(
       CesiumByZh.viewer,
       CesiumByZh.Cesium,
@@ -81,9 +90,10 @@ export default {
         113.94759683074989, 22.53468017437737,
       ]
     );
-    // this.loadjiantou(  CesiumByZh.viewer,
-    //   CesiumByZh.Cesium,
-    //   [120.9677706, 30.7985748, 110.2, 34.55])
+    this.loadjiantou(  
+      CesiumByZh.viewer,
+      CesiumByZh.Cesium,
+      )
     this.loadpoiIconLabelAdd(
       CesiumByZh.viewer,
       CesiumByZh.Cesium,
@@ -93,7 +103,23 @@ export default {
       Cesium.Color.fromCssColorString("#ee0000"),
       "/assets/image/locations3.png"
     );
-  
+    this.induationAnalysis(
+      
+      CesiumByZh.viewer,
+      CesiumByZh.Cesium,
+      10,
+      [
+        113.94759683074989, 22.53468017437737,
+
+        113.95090131225771, 22.525999034927693,
+
+        113.95875482025184, 22.53333245334838,
+
+        113.94759683074989, 22.53468017437737,
+      ],
+      10
+      )
+  this.dixing(CesiumByZh.viewer,CesiumByZh.Cesium,)
   },
   methods: {
     //添加点
@@ -149,8 +175,13 @@ export default {
         polyline: {
           // fromDegrees返回给定的经度和纬度值数组（以度为单位），该数组由Cartesian3位置组成。
           positions: Cesium.Cartesian3.fromDegreesArray(linedata), // 宽度
-          width: 2, // 线的颜色
-          material: Cesium.Color.fromCssColorString("#ee0000"), // 线的顺序,仅当`clampToGround`为true并且支持地形上的折线时才有效。
+          width: 5, // 线的颜色
+            material: new Cesium.LineFlowMaterialProperty({
+                color: new Cesium.Color(0.0, 1.0, 0.5, 0.8),
+                speed: 5 * Math.random(),
+                percent: 0.1,
+                gradient: 0.01,
+              }), // 线的顺序,仅当`clampToGround`为true并且支持地形上的折线时才有效。
           clampToGround: true,
           zIndex: 10, // 是否显示
           show: true,
@@ -252,7 +283,7 @@ export default {
             polyline: {
               positions: _siglePositions,
               material: new Cesium.LineFlowMaterialProperty({
-                color: new Cesium.Color(1.0, 1.0, 0.0, 0.8),
+                color: new Cesium.Color(0.0, 1.0, 0.5, 0.8),
                 speed: 5 * Math.random(),
                 percent: 0.1,
                 gradient: 0.01,
@@ -264,7 +295,7 @@ export default {
         let ODline = viewer.entities.add({
           polyline: {
             positions: _siglePositions,
-            material: new Cesium.Color(1.0, 1.0, 0.0, 0.2),
+            material: new Cesium.Color(0.0, 1.0, 0.0, 0.2),
           },
         });
         viewer.flyTo(ODline);
@@ -340,7 +371,10 @@ export default {
           outline: true, // 边框
           outlineColor: Cesium.Color.RED, // 边框颜色
           outlineWidth: 2, // 边框尺寸
-          material: Cesium.Color.GREEN.withAlpha(0.5), // 填充的颜色，withAlpha透明度
+         material: new Cesium.EllipsoidTrailMaterialProperty({
+            color: new Cesium.Color(1.0, 1.0, 0.0, 0.7),
+            speed: 10.0
+        }), // 填充的颜色，withAlpha透明度
           fill: true, // 是否被提供的材质填充
           height: height, // 恒定高度
           extrudedHeight: extrudedHeight,
@@ -455,14 +489,14 @@ export default {
       // add data to heatmap
       heatMap.setWGS84Data(valueMin, valueMax, data);
 
-      viewer.camera.setView({
-        destination: Cesium.Rectangle.fromDegrees(
-          bounds.west,
-          bounds.south,
-          bounds.east,
-          bounds.north
-        ),
-      });
+      // viewer.camera.setView({
+      //   destination: Cesium.Rectangle.fromDegrees(
+      //     bounds.west,
+      //     bounds.south,
+      //     bounds.east,
+      //     bounds.north
+      //   ),
+      // });
     },
     //添加辐射圈
     loadRadiationPoint(viewer, Cesium) {
@@ -500,22 +534,52 @@ export default {
       });
     },
     //箭头线(失败找不到viewer)
-    loadjiantou(viewer, Cesium, linedata) {
-      let line = viewer.entities.add({
+    loadjiantou(viewer, Cesium) {
+
+     
+
+// 创建一条线
+      const entityLine = viewer.entities.add({
+        name: 'PolylineTrail',
         polyline: {
-          // fromDegrees返回给定的经度和纬度值数组（以度为单位），该数组由Cartesian3位置组成。
-          positions: Cesium.Cartesian3.fromDegreesArray(linedata), // 宽度
-          width: 10, // 线的颜色
-          material: new Cesium.TrailLineMaterialProperty({
-            color: Cesium.Color.RED,
-            duration: 18000,
+          positions: Cesium.Cartesian3.fromDegreesArray([120.9677706, 30.7985748, 110.2, 34.55]),
+          width: 50,
+          material: new Cesium.FlowLineMaterialProperty(
+         {
+          color: new Cesium.Color(1, 1, 0, 0.7),
+            duration:30000,
+            viewer:viewer
+
+         }
+           
+          )
+        }
+      }
+      )
+viewer.flyTo(entityLine)
+let positions = [ 113.91422648358798,22.553609820449566 , 113.91422648358798,
+              22.537126278789316,113.92691733616653,
+              22.537126278789316,113.92691733616653,
+              22.553609820449566,113.91422648358798,
+              22.553609820449566]
+let qiang = viewer.entities.add({
+        name: "立体墙效果",
+        wall: {
+          positions: Cesium.Cartesian3.fromDegreesArray(positions),
+          // 设置高度
+          maximumHeights: new Array(positions.length).fill(100),
+          minimunHeights: new Array(positions.length).fill(0),
+          // 扩散墙材质
+          material: new Cesium.PolylineTrailLinkMaterialProperty({
+            color: new Cesium.Color(0.0, 1.0, 0.0, 1.0),
+            duration:3000
           }),
-          clampToGround: true,
-          zIndex: 10, // 是否显示
-          show: true,
         },
       });
+
     },
+
+  
     //自定义立体标签
     loadpoiIconLabelAdd(viewer, Cesium, lon, lat, name, color, url) {
       viewer.entities.add({
@@ -580,8 +644,57 @@ export default {
         },
       });
     },
-   
+    /**
+ * 淹没分析函数，通过拉伸面的高度来进行分析
+ * @param {*} viewer
+ * @param {*} targertWaterHeight ：目标水位高度
+ * @param {*} positions ：研究区域底部坐标数组
+ * @param {*} waterHeight ：当前水位高度
+ */
+ induationAnalysis(viewer, Cesium, targertWaterHeight, positions, waterHeight) {
+    viewer.entities.add({
+        polygon: {
+            hierarchy: new Cesium.PolygonHierarchy(Cesium.Cartesian3.fromDegreesArray(positions)),
+            perPositionHeight: true,
+            // 使用回调函数Callback，直接设置extrudedHeight会导致闪烁
+            extrudedHeight: new Cesium.CallbackProperty(function() {
+                waterHeight += 0.2;
+                if (waterHeight > targertWaterHeight) {
+                    waterHeight = targertWaterHeight;
+                }
+                return waterHeight;
+            }, false),
+            material: new Cesium.Color.fromBytes(64, 157, 253, 150),
+        }
+    });
+},
 
+  dixing(viewer, Cesium){
+    let earthPositionList = [
+        { x: -2480825.779644006, y: 4823039.348573122, z: 3344998.9734951435 },
+        { x: -2481857.6623671586, y: 4822939.719360245, z: 3344970.8291531955 },
+        { x: -2481826.5803391673, y: 4823096.907581604, z: 3344768.5949868727 },
+        { x: -2480854.0689538443, y: 4823168.905374106, z: 3344792.5711652176 }
+        ]
+        // let points = [ {x:-2495739.242281818762422, y:4924560.891864060831722, z:3344998.9734951435 }, 
+        //                 { x:-2495495.966318366117775,y:4936370.751335374021437 ,z:3344970.8291531955 }, 
+        //                 {x:-2495432.2276522340253,y:4940450.701099574100226,  z:3344768.5949868727  }, 
+        //                 {x:-2495432.2276522340253, y:4940450.701099574100226,  z:3344792.5711652176 }, 
+        //                 { x:-2493565.508940983098 , y:4938510.702522579929791,z:3344768.5949868727}, 
+        //                 {x:-2493543.364830962382257, y:4917680.611525853164494,  z:3344970.8291531955  }, 
+        //                 { y:-2495739.242281818762422 ,y:4924560.891864060831722,  z:3344998.9734951435} ] 
+    let terrainClipPlan = new Cesium.TerrainClipPlan(viewer, {
+            height: 30,
+            splitNum: 50,
+            bottomImg: '/assets/image/excavate_bottom_min.jpg',
+            wallImg: '/assets/image/excavate_side_min.jpg'
+        })
+  terrainClipPlan.updateData(earthPositionList)
+  viewer.camera.setView({
+            destination: Cesium.Cartesian3.fromDegrees(117.220108, 31.834937, 3000)
+        })
+  } 
+  
 
    
   },

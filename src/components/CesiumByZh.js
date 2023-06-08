@@ -14,15 +14,28 @@ export default class CesiumByZh {
                 CesiumByZh.Cesium=window.Cesium;
                 // @ts-ignore
                 CesiumByZh.viewer = new CesiumByZh.Cesium.Viewer(id, {
+                    //使用webgl1
+                    // contextOptions: {
+                    //     requestWebgl1: true,
+                    //   },
+                    
                     //天地图
                     imageryProvider: new CesiumByZh.Cesium.WebMapTileServiceImageryProvider({
-                        url: 'http://t0.tianditu.gov.cn/img_w/wmts?tk=30cc127d81b6563a4f9eb761a01aa5a6',
+                        // url: 'http://t0.tianditu.gov.cn/img_w/wmts?tk=30cc127d81b6563a4f9eb761a01aa5a6',
+                        url: 'http://t0.tianditu.gov.cn/img_w/wmts?tk=d91598de4b38152e246987675a7d00f5',
                         layer: 'img',
                         style: 'default',
                         tileMatrixSetID: 'w',
                         format: 'tiles',
                         maximumLevel: 19
                     }),
+                    // imageryProvider : new CesiumByZh.Cesium.MapboxImageryProvider({
+                    //     url:'/api',
+                    //     mapId: 'zengqinxin/clgngljyb001x01py7ijpg9z7',
+                    //     accessToken: 'pk.eyJ1IjoiemVuZ3Fpbmd4aW4iLCJhIjoiY2xiMGlnN2VoMTA0MjNxbXhmMWkxeTI4bSJ9.QBVVQ2XgkS6TtqqE73G-Jg',
+                    //     scaleFactor: true
+                    // }),
+                    // terrainProvider: new Cesium.EllipsoidTerrainProvider({}),
                     animation: false, // 是否显示动画控件
                     baseLayerPicker: false, // 是否显示图层选择控件
                     geocoder: false, // 是否显示地名查找控件

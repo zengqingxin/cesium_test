@@ -97,6 +97,7 @@ Cesium.Material._materialCache.addMaterial(Cesium.Material.LineFlowMaterialType,
     },
     translucent: function(material) {
         return true;
+        console.log(2222222);
     }
 })
 
