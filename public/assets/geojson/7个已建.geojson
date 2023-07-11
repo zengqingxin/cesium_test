@@ -1,0 +1,583 @@
+{
+    "type": "FeatureCollection",
+    "name": "7个已建",
+    "features": [
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "深圳联想后海项目"
+            },
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            4409.03935565617212,
+                            4759.391582965385169
+                        ],
+                        [
+                            4543.202736543871652,
+                            4679.373410070315003
+                        ],
+                        [
+                            4501.17180081641618,
+                            4515.359873810317367
+                        ],
+                        [
+                            4356.132284113226888,
+                            4554.49835149385035
+                        ],
+                        [
+                            4347.092908234259994,
+                            4573.575730725191534
+                        ],
+                        [
+                            4409.03935565617212,
+                            4759.391582965385169
+                        ]
+                    ]
+                ]
+            },
+            "item":{
+            "id": "202207016120",
+            "name": "深圳联想后海项目",
+            "unit": "深圳联想海外控股有限公司",
+            "industryCode": "3",
+            "projectCode": null,
+            "department": 3,
+            "ifConcert": 0,
+            "ganttNo": "fd9b8468822246fca74fbb1c6d2106d3",
+            "departmentName": "南山区大湾区中心",
+            "area": "bc36f7c6e43843659acf4353495e3aef",
+            "street": "6",
+            "government": 2,
+            "isRoom": 0,
+            "investment": 45000,
+            "cumulative": 1050000,
+            "remainingQuota": -140400,
+            "planInvest": null,
+            "time": null,
+            "projectStatus": 4,
+            "accumulatedInvestment": 6670,
+            "monthInvest": 350,
+            "month": "202305",
+            "projectValues": null,
+            "completeRate": null,
+            "completeRateMonthly": null,
+            "buildingSafetyMonth": null,
+            "equipmentPurchaseMonth": null,
+            "otherFeeMonth": null,
+            "landPriceMonth": null,
+            "buildingSafetyTotal": null,
+            "equipmentPurchaseTotal": null,
+            "otherFeeTotal": null,
+            "landPriceTotal": null,
+            "planInvestNext": 0,
+            "investProgress": 7,
+            "ifKeyProject": null,
+            "startDate": "2017-07-01 00:00:00",
+            "endDate": "2022-10-01 00:00:00",
+            "address": "深圳市南山后海中心区",
+            "ifFull": null,
+            "planInvestSecond": null,
+            "plateformTotal": null,
+            "predictionTotal": 300,
+            "predictionX1Total": null
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "舜远金融大厦"
+            },
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            4802.984399011642381,
+                            5049.420634353533387
+                        ],
+                        [
+                            4829.726751588809748,
+                            5149.468596805352718
+                        ],
+                        [
+                            4858.188885347501127,
+                            5148.87028688704595
+                        ],
+                        [
+                            4849.637862246837358,
+                            5045.293803524691612
+                        ],
+                        [
+                            4802.984399011642381,
+                            5049.420634353533387
+                        ]
+                    ]
+                ]
+            },
+            "item":{
+            "id": "202209120316",
+            "name": "舜远金融大厦",
+            "unit": "中山证券有限责任公司",
+            "industryCode": "4",
+            "projectCode": null,
+            "department": 3,
+            "ifConcert": 0,
+            "ganttNo": "256360ad4c60b211929ec7a3ae53cbf4",
+            "departmentName": "南山区大湾区中心",
+            "area": "bc36f7c6e43843659acf4353495e3aef",
+            "street": "6",
+            "government": 2,
+            "isRoom": 1,
+            "investment": 83953,
+            "cumulative": 92500,
+            "remainingQuota": -7000,
+            "planInvest": null,
+            "time": null,
+            "projectStatus": 4,
+            "accumulatedInvestment": 1530,
+            "monthInvest": 50,
+            "month": "202305",
+            "projectValues": null,
+            "completeRate": null,
+            "completeRateMonthly": null,
+            "buildingSafetyMonth": null,
+            "equipmentPurchaseMonth": null,
+            "otherFeeMonth": null,
+            "landPriceMonth": null,
+            "buildingSafetyTotal": null,
+            "equipmentPurchaseTotal": null,
+            "otherFeeTotal": null,
+            "landPriceTotal": null,
+            "planInvestNext": 0,
+            "investProgress": 7,
+            "ifKeyProject": null,
+            "startDate": "2017-01-01 00:00:00",
+            "endDate": "2021-12-30 00:00:00",
+            "address": null,
+            "ifFull": null,
+            "planInvestSecond": null,
+            "plateformTotal": null,
+            "predictionTotal": 800,
+            "predictionX1Total": null
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "阳光保险深圳总部大厦"
+            },
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            4661.87293718519777,
+                            5116.086570991203189
+                        ],
+                        [
+                            4685.930933998017281,
+                            5108.740939903538674
+                        ],
+                        [
+                            4705.002499100492969,
+                            5105.798805646598339
+                        ],
+                        [
+                            4775.13055535145395,
+                            5103.129257539752871
+                        ],
+                        [
+                            4763.082085183410527,
+                            5059.119989227037877
+                        ],
+                        [
+                            4659.22029455482334,
+                            5087.625207172706723
+                        ],
+                        [
+                            4661.87293718519777,
+                            5116.086570991203189
+                        ]
+                    ]
+                ]
+            },
+            "item":{
+                "id": "202209120344",
+                "name": "阳光保险深圳总部大厦",
+                "unit": "阳光保险集团股份有限公司",
+                "industryCode": "4",
+                "projectCode": null,
+                "department": 3,
+                "ifConcert": 0,
+                "ganttNo": "156860ad4c60b2117ca61d261a497bfe",
+                "departmentName": "南山区大湾区中心",
+                "area": "bc36f7c6e43843659acf4353495e3aef",
+                "street": "6",
+                "government": 2,
+                "isRoom": 1,
+                "investment": 220000,
+                "cumulative": 199000,
+                "remainingQuota": 23900,
+                "planInvest": null,
+                "time": null,
+                "projectStatus": 2,
+                "accumulatedInvestment": 3220,
+                "monthInvest": 760,
+                "month": "202305",
+                "projectValues": null,
+                "completeRate": 33.54,
+                "completeRateMonthly": 7.92,
+                "buildingSafetyMonth": null,
+                "equipmentPurchaseMonth": null,
+                "otherFeeMonth": null,
+                "landPriceMonth": null,
+                "buildingSafetyTotal": null,
+                "equipmentPurchaseTotal": null,
+                "otherFeeTotal": null,
+                "landPriceTotal": null,
+                "planInvestNext": 9600,
+                "investProgress": 3,
+                "ifKeyProject": null,
+                "startDate": "2017-10-01 00:00:00",
+                "endDate": "2023-01-01 00:00:00",
+                "address": null,
+                "ifFull": null,
+                "planInvestSecond": null,
+                "plateformTotal": null,
+                "predictionTotal": 22000,
+                "predictionX1Total": null
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "红土创新广场"
+            },
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            4855.398227080797369,
+                            4873.341413423418999
+                        ],
+                        [
+                            4868.758968539250418,
+                            5019.268775102682412
+                        ],
+                        [
+                            4935.65829122397281,
+                            5012.982280713040382
+                        ],
+                        [
+                            4932.49873358257264,
+                            4938.256733146030456
+                        ],
+                        [
+                            4930.534145618169532,
+                            4917.130497959908098
+                        ],
+                        [
+                            4916.03347444011979,
+                            4854.928769835736603
+                        ],
+                        [
+                            4855.398227080797369,
+                            4873.341413423418999
+                        ]
+                    ]
+                ]
+            },
+            "item":{
+            "id": "202207113394",
+            "name": "红土创新广场（深创投广场）",
+            "unit": "深圳市创新投资集团有限公司",
+            "industryCode": "4",
+            "projectCode": null,
+            "department": 3,
+            "ifConcert": 0,
+            "ganttNo": "9bd72c49ba0a4535975362a8a2e79990",
+            "departmentName": "南山区大湾区中心",
+            "area": "bc36f7c6e43843659acf4353495e3aef",
+            "street": "6",
+            "government": 2,
+            "isRoom": 1,
+            "investment": 150000,
+            "cumulative": 300000,
+            "remainingQuota": -40600,
+            "planInvest": null,
+            "time": null,
+            "projectStatus": 4,
+            "accumulatedInvestment": 0,
+            "monthInvest": 0,
+            "month": "202305",
+            "projectValues": null,
+            "completeRate": null,
+            "completeRateMonthly": null,
+            "buildingSafetyMonth": null,
+            "equipmentPurchaseMonth": null,
+            "otherFeeMonth": null,
+            "landPriceMonth": null,
+            "buildingSafetyTotal": null,
+            "equipmentPurchaseTotal": null,
+            "otherFeeTotal": null,
+            "landPriceTotal": null,
+            "planInvestNext": 0,
+            "investProgress": 7,
+            "ifKeyProject": null,
+            "startDate": "2017-10-01 00:00:00",
+            "endDate": "2022-07-15 00:00:00",
+            "address": "南山区海德三道与科苑路交汇处",
+            "ifFull": null,
+            "planInvestSecond": null,
+            "plateformTotal": null,
+            "predictionTotal": 0,
+            "predictionX1Total": null
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "喜之郎大厦"
+            },
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            4412.730078430504363,
+                            3827.52951292693615
+                        ],
+                        [
+                            4476.409474490496905,
+                            3828.382598623167723
+                        ],
+                        [
+                            4479.013037738645835,
+                            3740.345714349765331
+                        ],
+                        [
+                            4413.573314943481819,
+                            3741.254089580848813
+                        ],
+                        [
+                            4412.730078430504363,
+                            3827.52951292693615
+                        ]
+                    ]
+                ]
+            },
+            "item":{
+                "id": "202207110949",
+                "name": "喜之郎大厦",
+                "unit": "广东喜之郎集团有限公司",
+                "industryCode": "1",
+                "projectCode": null,
+                "department": 3,
+                "ifConcert": 0,
+                "ganttNo": "d0cb34fe9de9403fb23946d1e26bfa5b",
+                "departmentName": "南山区大湾区中心",
+                "area": "bc36f7c6e43843659acf4353495e3aef",
+                "street": "6",
+                "government": 2,
+                "isRoom": 1,
+                "investment": 45900,
+                "cumulative": 121000,
+                "remainingQuota": -18600,
+                "planInvest": null,
+                "time": null,
+                "projectStatus": 4,
+                "accumulatedInvestment": 375,
+                "monthInvest": 6,
+                "month": "202305",
+                "projectValues": null,
+                "completeRate": null,
+                "completeRateMonthly": null,
+                "buildingSafetyMonth": null,
+                "equipmentPurchaseMonth": null,
+                "otherFeeMonth": null,
+                "landPriceMonth": null,
+                "buildingSafetyTotal": null,
+                "equipmentPurchaseTotal": null,
+                "otherFeeTotal": null,
+                "landPriceTotal": null,
+                "planInvestNext": 0,
+                "investProgress": 7,
+                "ifKeyProject": null,
+                "startDate": "2018-11-01 00:00:00",
+                "endDate": "2022-12-01 00:00:00",
+                "address": null,
+                "ifFull": null,
+                "planInvestSecond": null,
+                "plateformTotal": null,
+                "predictionTotal": 100,
+                "predictionX1Total": null
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "鹏瑞深圳湾壹号广场南地块三期"
+            },
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            4570.923872567689614,
+                            3540.96723197447136
+                        ],
+                        [
+                            4640.205327552876952,
+                            3541.413231391925365
+                        ],
+                        [
+                            4637.528025727546265,
+                            3470.173370906151831
+                        ],
+                        [
+                            4549.712324636090671,
+                            3469.735180648509413
+                        ],
+                        [
+                            4557.685415617809667,
+                            3540.972797446884215
+                        ],
+                        [
+                            4570.923872567689614,
+                            3540.96723197447136
+                        ]
+                    ]
+                ]
+            },
+            "item":{
+                "id": "202209120356",
+                "name": "鹏瑞深圳湾壹号广场南地块三期",
+                "unit": "深圳市鹏瑞发展控股集团有限公司",
+                "industryCode": "3",
+                "projectCode": null,
+                "department": 3,
+                "ifConcert": 0,
+                "ganttNo": "346a60ad4c60b2117ab500893964ecb9",
+                "departmentName": "南山区大湾区中心",
+                "area": "bc36f7c6e43843659acf4353495e3aef",
+                "street": "6",
+                "government": 2,
+                "isRoom": 0,
+                "investment": 450000,
+                "cumulative": 462000,
+                "remainingQuota": 5400,
+                "planInvest": null,
+                "time": null,
+                "projectStatus": 4,
+                "accumulatedInvestment": 17500,
+                "monthInvest": 1600,
+                "month": "202305",
+                "projectValues": null,
+                "completeRate": null,
+                "completeRateMonthly": null,
+                "buildingSafetyMonth": null,
+                "equipmentPurchaseMonth": null,
+                "otherFeeMonth": null,
+                "landPriceMonth": null,
+                "buildingSafetyTotal": null,
+                "equipmentPurchaseTotal": null,
+                "otherFeeTotal": null,
+                "landPriceTotal": null,
+                "planInvestNext": 0,
+                "investProgress": 7,
+                "ifKeyProject": null,
+                "startDate": null,
+                "endDate": "2018-02-09 00:00:00",
+                "address": "南山区东滨路与科苑大道交汇处西北侧",
+                "ifFull": null,
+                "planInvestSecond": null,
+                "plateformTotal": null,
+                "predictionTotal": 0,
+                "predictionX1Total": null
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "鹏瑞深圳湾壹号广场南地块二期"
+            },
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            4637.528025727546265,
+                            3470.173370906151831
+                        ],
+                        [
+                            4724.462223541851017,
+                            3473.224592177197337
+                        ],
+                        [
+                            4720.739465126323012,
+                            3541.85492205619812
+                        ],
+                        [
+                            4640.205327552876952,
+                            3541.413231391925365
+                        ],
+                        [
+                            4637.528025727546265,
+                            3470.173370906151831
+                        ]
+                    ]
+                ]
+            },
+            "item":{
+            "id": "202209120357",
+            "name": "鹏瑞深圳湾壹号广场南地块二期",
+            "unit": "深圳市鹏瑞发展控股集团有限公司",
+            "industryCode": "3",
+            "projectCode": null,
+            "department": 3,
+            "ifConcert": 0,
+            "ganttNo": "626a60ad4c60b2110b86d26c7047da7e",
+            "departmentName": "南山区大湾区中心",
+            "area": "bc36f7c6e43843659acf4353495e3aef",
+            "street": "6",
+            "government": 2,
+            "isRoom": 0,
+            "investment": 220000,
+            "cumulative": 213000,
+            "remainingQuota": 7900,
+            "planInvest": null,
+            "time": null,
+            "projectStatus": 4,
+            "accumulatedInvestment": 475,
+            "monthInvest": 41,
+            "month": "202305",
+            "projectValues": null,
+            "completeRate": null,
+            "completeRateMonthly": null,
+            "buildingSafetyMonth": null,
+            "equipmentPurchaseMonth": null,
+            "otherFeeMonth": null,
+            "landPriceMonth": null,
+            "buildingSafetyTotal": null,
+            "equipmentPurchaseTotal": null,
+            "otherFeeTotal": null,
+            "landPriceTotal": null,
+            "planInvestNext": 0,
+            "investProgress": 7,
+            "ifKeyProject": null,
+            "startDate": null,
+            "endDate": null,
+            "address": null,
+            "ifFull": null,
+            "planInvestSecond": null,
+            "plateformTotal": null,
+            "predictionTotal": 20,
+            "predictionX1Total": null
+            }
+        }
+    ]
+}

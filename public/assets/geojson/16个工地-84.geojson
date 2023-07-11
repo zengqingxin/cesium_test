@@ -1,0 +1,2440 @@
+{
+    "type": "FeatureCollection",
+    "name": "16个工地-84",
+    "crs": {
+        "type": "name",
+        "properties": {
+            "name": "urn:ogc:def:crs:OGC:1.3:CRS84"
+        }
+    },
+    "features": [
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "数字动漫影视基地",
+                "状态": "在建",
+                "id": "202207118566",
+                "name2": "数字动漫影视基地总部",
+                "unit": "华强方特文化科技集团股份有限公司",
+                "industryCode": "3",
+                "projectCode": null,
+                "department": 3,
+                "ifConcert": 1,
+                "ganttNo": "b9efab58caf74170949df9b514ecde42",
+                "departmentName": "南山区大湾区中心",
+                "area": "bc36f7c6e43843659acf4353495e3aef",
+                "street": "6",
+                "government": 2,
+                "isRoom": 1,
+                "investment": 165000,
+                "cumulative": 116000,
+                "remainingQuota": 51100,
+                "planInvest": null,
+                "time": null,
+                "projectStatus": 2,
+                "accumulatedInvestment": 2220,
+                "monthInvest": 580,
+                "month": "202305",
+                "projectValues": null,
+                "completeRate": 13.21,
+                "completeRateMonthly": 3.45,
+                "buildingSafetyMonth": null,
+                "equipmentPurchaseMonth": null,
+                "otherFeeMonth": null,
+                "landPriceMonth": null,
+                "buildingSafetyTotal": null,
+                "equipmentPurchaseTotal": null,
+                "otherFeeTotal": null,
+                "landPriceTotal": null,
+                "planInvestNext": 16800,
+                "investProgress": 1,
+                "ifKeyProject": null,
+                "startDate": "2020-10-30 00:00:00",
+                "endDate": "2025-06-30 00:00:00",
+                "address": "南山区后海滨路与兰香三街交汇处",
+                "ifFull": null,
+                "planInvestSecond": null,
+                "plateformTotal": null,
+                "predictionTotal": 1000,
+                "predictionX1Total": null
+            },
+            "geometry": {
+                "type": "MultiPolygon",
+                "coordinates": [
+                    [
+                        [
+                            [
+                                113.933079707896511,
+                                22.511085400444699
+                            ],
+                            [
+                                113.933642533491209,
+                                22.511085400444298
+                            ],
+                            [
+                                113.933676759371934,
+                                22.511043000557169
+                            ],
+                            [
+                                113.93368436512327,
+                                22.510629600968606
+                            ],
+                            [
+                                113.933072102145204,
+                                22.510615467627684
+                            ],
+                            [
+                                113.933079707896511,
+                                22.511085400444699
+                            ]
+                        ]
+                    ]
+                ]
+            }
+           
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "海能达",
+                "状态": "在建",
+                "id": "202207110164",
+            "name2": "海能达全球总部大厦",
+            "unit": "深圳市海科达咨询有限公司",
+            "industryCode": "3",
+            "projectCode": null,
+            "department": 3,
+            "ifConcert": 0,
+            "ganttNo": "d0f77ae3f6ad4926afcb420c1f58f0f2",
+            "departmentName": "南山区大湾区中心",
+            "area": "bc36f7c6e43843659acf4353495e3aef",
+            "street": "6",
+            "government": 2,
+            "isRoom": 1,
+            "investment": 368500,
+            "cumulative": 249000,
+            "remainingQuota": 126600,
+            "planInvest": null,
+            "time": null,
+            "projectStatus": 2,
+            "accumulatedInvestment": 7040,
+            "monthInvest": 2640,
+            "month": "202305",
+            "projectValues": null,
+            "completeRate": 19.56,
+            "completeRateMonthly": 7.33,
+            "buildingSafetyMonth": null,
+            "equipmentPurchaseMonth": null,
+            "otherFeeMonth": null,
+            "landPriceMonth": null,
+            "buildingSafetyTotal": null,
+            "equipmentPurchaseTotal": null,
+            "otherFeeTotal": null,
+            "landPriceTotal": null,
+            "planInvestNext": 36000,
+            "investProgress": 2,
+            "ifKeyProject": null,
+            "startDate": "2020-11-06 00:00:00",
+            "endDate": "2025-01-31 00:00:00",
+            "address": "后海滨路以东，东滨路以北",
+            "ifFull": null,
+            "planInvestSecond": null,
+            "plateformTotal": null,
+            "predictionTotal": 2000,
+            "predictionX1Total": null
+            },
+            "geometry": {
+                "type": "MultiPolygon",
+                "coordinates": [
+                    [
+                        [
+                            [
+                                113.93387070602958,
+                                22.510057199474183
+                            ],
+                            [
+                                113.933851691651441,
+                                22.511043000557041
+                            ],
+                            [
+                                113.93387831178093,
+                                22.511085400444134
+                            ],
+                            [
+                                113.934277613723097,
+                                22.511092467090339
+                            ],
+                            [
+                                113.934346065484547,
+                                22.511050067205375
+                            ],
+                            [
+                                113.934353671235925,
+                                22.510060732823778
+                            ],
+                            [
+                                113.934315642479461,
+                                22.510004199214265
+                            ],
+                            [
+                                113.933916340537252,
+                                22.510011265916958
+                            ],
+                            [
+                                113.93387070602958,
+                                22.510057199474183
+                            ]
+                        ]
+                    ]
+                ]
+            }
+           
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "字节跳动后海中心",
+                "状态": "在建",
+                "id": "202207117674",
+                "name2": "字节跳动后海中心",
+                "unit": "深圳今日头条科技有限公司",
+                "industryCode": "3",
+                "projectCode": null,
+                "department": 3,
+                "ifConcert": 1,
+                "ganttNo": "f24c6c0625e6413dbce2964aae60e73b",
+                "departmentName": "南山区大湾区中心",
+                "area": "bc36f7c6e43843659acf4353495e3aef",
+                "street": "6",
+                "government": 2,
+                "isRoom": 1,
+                "investment": 200000,
+                "cumulative": 125000,
+                "remainingQuota": 79700,
+                "planInvest": null,
+                "time": null,
+                "projectStatus": 2,
+                "accumulatedInvestment": 5020,
+                "monthInvest": 420,
+                "month": "202305",
+                "projectValues": null,
+                "completeRate": 13.94,
+                "completeRateMonthly": 1.17,
+                "buildingSafetyMonth": null,
+                "equipmentPurchaseMonth": null,
+                "otherFeeMonth": null,
+                "landPriceMonth": null,
+                "buildingSafetyTotal": null,
+                "equipmentPurchaseTotal": null,
+                "otherFeeTotal": null,
+                "landPriceTotal": null,
+                "planInvestNext": 36000,
+                "investProgress": 1,
+                "ifKeyProject": null,
+                "startDate": "2020-01-01 00:00:00",
+                "endDate": "2024-12-31 00:00:00",
+                "address": "创业路和中心路交汇处西南角",
+                "ifFull": null,
+                "planInvestSecond": null,
+                "plateformTotal": null,
+                "predictionTotal": 1000,
+                "predictionX1Total": null
+            },
+            "geometry": {
+                "type": "MultiPolygon",
+                "coordinates": [
+                    [
+                        [
+                            [
+                                113.935869037951591,
+                                22.515037380226026
+                            ],
+                            [
+                                113.936017350101523,
+                                22.515567362379748
+                            ],
+                            [
+                                113.936670493992622,
+                                22.515405718040089
+                            ],
+                            [
+                                113.936516477529139,
+                                22.514873085340469
+                            ],
+                            [
+                                113.935869037951591,
+                                22.515037380226026
+                            ]
+                        ]
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "瑞声科技",
+                "状态": "在建",
+                "id": "202207112183",
+            "name2": "瑞声科技高端精密制造产业总部项目",
+            "unit": "瑞声声学科技(深圳)有限公司",
+            "industryCode": "3",
+            "projectCode": null,
+            "department": 3,
+            "ifConcert": 0,
+            "ganttNo": "f03b36859b2e491399fe495919291748",
+            "departmentName": "南山区大湾区中心",
+            "area": "bc36f7c6e43843659acf4353495e3aef",
+            "street": "6",
+            "government": 2,
+            "isRoom": 1,
+            "investment": 110000,
+            "cumulative": 91700,
+            "remainingQuota": 24300,
+            "planInvest": null,
+            "time": null,
+            "projectStatus": 2,
+            "accumulatedInvestment": 5970,
+            "monthInvest": 4020,
+            "month": "202305",
+            "projectValues": null,
+            "completeRate": 38.27,
+            "completeRateMonthly": 25.77,
+            "buildingSafetyMonth": null,
+            "equipmentPurchaseMonth": null,
+            "otherFeeMonth": null,
+            "landPriceMonth": null,
+            "buildingSafetyTotal": null,
+            "equipmentPurchaseTotal": null,
+            "otherFeeTotal": null,
+            "landPriceTotal": null,
+            "planInvestNext": 15600,
+            "investProgress": 3,
+            "ifKeyProject": null,
+            "startDate": "2021-12-01 00:00:00",
+            "endDate": "2025-01-31 00:00:00",
+            "address": "南山区粤海街道后海中心",
+            "ifFull": null,
+            "planInvestSecond": null,
+            "plateformTotal": null,
+            "predictionTotal": 1500,
+            "predictionX1Total": null
+            },
+            "geometry": {
+                "type": "MultiPolygon",
+                "coordinates": [
+                    [
+                        [
+                            [
+                                113.937263742592222,
+                                22.515217574387716
+                            ],
+                            [
+                                113.937309377099922,
+                                22.5152387736854
+                            ],
+                            [
+                                113.93800245118517,
+                                22.51505857954978
+                            ],
+                            [
+                                113.93785699119195,
+                                22.514528595423037
+                            ],
+                            [
+                                113.937149656323172,
+                                22.514700840490285
+                            ],
+                            [
+                                113.937263742592222,
+                                22.515217574387716
+                            ]
+                        ]
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "G-08地块",
+                "状态": "在建",
+                "id": "202207115161",
+                "name2": "后海中心区G-08地块（中国海外大厦总部项目）",
+                "unit": "中海建筑有限公司",
+                "industryCode": "3",
+                "projectCode": null,
+                "department": 3,
+                "ifConcert": 1,
+                "ganttNo": "c0d0df1f27974bcaa933d64718c1f8aa",
+                "departmentName": "南山区大湾区中心",
+                "area": "bc36f7c6e43843659acf4353495e3aef",
+                "street": "6",
+                "government": 2,
+                "isRoom": 1,
+                "investment": 140000,
+                "cumulative": 120000,
+                "remainingQuota": 32100,
+                "planInvest": null,
+                "time": null,
+                "projectStatus": 2,
+                "accumulatedInvestment": 12500,
+                "monthInvest": 5170,
+                "month": "202305",
+                "projectValues": null,
+                "completeRate": 52.08,
+                "completeRateMonthly": 21.54,
+                "buildingSafetyMonth": null,
+                "equipmentPurchaseMonth": null,
+                "otherFeeMonth": null,
+                "landPriceMonth": null,
+                "buildingSafetyTotal": null,
+                "equipmentPurchaseTotal": null,
+                "otherFeeTotal": null,
+                "landPriceTotal": null,
+                "planInvestNext": 24000,
+                "investProgress": 3,
+                "ifKeyProject": null,
+                "startDate": "2021-02-18 00:00:00",
+                "endDate": "2023-08-30 00:00:00",
+                "address": "南山区粤海中心路与创业路交汇处西北区域",
+                "ifFull": null,
+                "planInvestSecond": null,
+                "plateformTotal": null,
+                "predictionTotal": 2500,
+                "predictionX1Total": null
+            },
+            "geometry": {
+                "type": "MultiPolygon",
+                "coordinates": [
+                    [
+                        [
+                            [
+                                113.936360179340355,
+                                22.51669933848968
+                            ],
+                            [
+                                113.937006668199089,
+                                22.516550944922361
+                            ],
+                            [
+                                113.936858356049157,
+                                22.516013900191563
+                            ],
+                            [
+                                113.936200458563476,
+                                22.51617642710972
+                            ],
+                            [
+                                113.936360179340355,
+                                22.51669933848968
+                            ]
+                        ]
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "恒裕金融中心",
+                "状态": "在建",
+                "id": "202207110495",
+            "name2": "恒裕金融中心（深圳市南山区后海T107-0068宗地项目）",
+            "unit": "深圳市创佶置业有限公司",
+            "industryCode": "3",
+            "projectCode": null,
+            "department": 3,
+            "ifConcert": 0,
+            "ganttNo": "d96d699c0ea74e2982bf8f1303203fdd",
+            "departmentName": "南山区大湾区中心",
+            "area": "bc36f7c6e43843659acf4353495e3aef",
+            "street": "6",
+            "government": 2,
+            "isRoom": 0,
+            "investment": 233200,
+            "cumulative": 264000,
+            "remainingQuota": -76200,
+            "planInvest": null,
+            "time": null,
+            "projectStatus": 2,
+            "accumulatedInvestment": 6700,
+            "monthInvest": 1900,
+            "month": "202305",
+            "projectValues": null,
+            "completeRate": 42.95,
+            "completeRateMonthly": 12.18,
+            "buildingSafetyMonth": null,
+            "equipmentPurchaseMonth": null,
+            "otherFeeMonth": null,
+            "landPriceMonth": null,
+            "buildingSafetyTotal": null,
+            "equipmentPurchaseTotal": null,
+            "otherFeeTotal": null,
+            "landPriceTotal": null,
+            "planInvestNext": 15600,
+            "investProgress": 3,
+            "ifKeyProject": null,
+            "startDate": "2016-03-01 00:00:00",
+            "endDate": "2023-12-31 00:00:00",
+            "address": "南山区后海滨路与创业路交汇处",
+            "ifFull": null,
+            "planInvestSecond": null,
+            "plateformTotal": null,
+            "predictionTotal": 1900,
+            "predictionX1Total": null
+            },
+            "geometry": {
+                "type": "MultiPolygon",
+                "coordinates": [
+                    [
+                        [
+                            [
+                                113.934531471517289,
+                                22.517181174824003
+                            ],
+                            [
+                                113.93460515223282,
+                                22.517408622181815
+                            ],
+                            [
+                                113.934745454613093,
+                                22.517769043886261
+                            ],
+                            [
+                                113.934919155266371,
+                                22.517873740170444
+                            ],
+                            [
+                                113.935425147292619,
+                                22.517746480178907
+                            ],
+                            [
+                                113.936354475027017,
+                                22.517538907389451
+                            ],
+                            [
+                                113.936411077316066,
+                                22.51751206209634
+                            ],
+                            [
+                                113.935986071449335,
+                                22.516244882683218
+                            ],
+                            [
+                                113.935299177037123,
+                                22.516403876140767
+                            ],
+                            [
+                                113.934721261075097,
+                                22.516569374894402
+                            ],
+                            [
+                                113.934488689166329,
+                                22.516602617702581
+                            ],
+                            [
+                                113.934369849302556,
+                                22.516748361330468
+                            ],
+                            [
+                                113.934531471517289,
+                                22.517181174824003
+                            ]
+                        ]
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "深圳湾文化广场BCD地块",
+                "状态": "在建",
+                "id": "202207117823",
+                "name2": "深圳湾文化广场BCD地块",
+                "unit": "深圳市润投咨询有限公司",
+                "industryCode": "3",
+                "projectCode": null,
+                "department": 3,
+                "ifConcert": 0,
+                "ganttNo": "ff9a77da8ef14d97accfe3f5d5be1250",
+                "departmentName": "南山区大湾区中心",
+                "area": "bc36f7c6e43843659acf4353495e3aef",
+                "street": "6",
+                "government": 2,
+                "isRoom": 0,
+                "investment": 681000,
+                "cumulative": 713000,
+                "remainingQuota": -6500,
+                "planInvest": null,
+                "time": null,
+                "projectStatus": 2,
+                "accumulatedInvestment": 25700,
+                "monthInvest": 7100,
+                "month": "202305",
+                "projectValues": null,
+                "completeRate": 42.83,
+                "completeRateMonthly": 11.83,
+                "buildingSafetyMonth": null,
+                "equipmentPurchaseMonth": null,
+                "otherFeeMonth": null,
+                "landPriceMonth": null,
+                "buildingSafetyTotal": null,
+                "equipmentPurchaseTotal": null,
+                "otherFeeTotal": null,
+                "landPriceTotal": null,
+                "planInvestNext": 60000,
+                "investProgress": 3,
+                "ifKeyProject": null,
+                "startDate": "2020-04-08 00:00:00",
+                "endDate": "2024-12-31 00:00:00",
+                "address": "后海中心片区西起后海滨路，东至深圳湾人才公园，南临海德一道，北接逸湖五街",
+                "ifFull": null,
+                "planInvestSecond": null,
+                "plateformTotal": null,
+                "predictionTotal": 4500,
+                "predictionX1Total": null
+            },
+            "geometry": {
+                "type": "MultiPolygon",
+                "coordinates": [
+                    [
+                        [
+                            [
+                                113.935685602298136,
+                                22.520242858270116
+                            ],
+                            [
+                                113.935628379304873,
+                                22.520275515819179
+                            ],
+                            [
+                                113.935711091850052,
+                                22.520508699280597
+                            ],
+                            [
+                                113.936290079666122,
+                                22.520426555151491
+                            ],
+                            [
+                                113.937174248252234,
+                                22.520317912840401
+                            ],
+                            [
+                                113.937134318058014,
+                                22.520185422101019
+                            ],
+                            [
+                                113.937137170214754,
+                                22.520113877048299
+                            ],
+                            [
+                                113.937159987468661,
+                                22.519931039521275
+                            ],
+                            [
+                                113.937251256484046,
+                                22.519779999640342
+                            ],
+                            [
+                                113.937336821185738,
+                                22.519692555422353
+                            ],
+                            [
+                                113.937439498828425,
+                                22.519610410803143
+                            ],
+                            [
+                                113.937610628231809,
+                                22.519557414248109
+                            ],
+                            [
+                                113.937847357240372,
+                                22.51950441767255
+                            ],
+                            [
+                                113.93781226258028,
+                                22.519373997081807
+                            ],
+                            [
+                                113.937977455503471,
+                                22.519249146384215
+                            ],
+                            [
+                                113.937904250933897,
+                                22.519006510099224
+                            ],
+                            [
+                                113.9378950480002,
+                                22.518954431870203
+                            ],
+                            [
+                                113.939140695836002,
+                                22.51824059356704
+                            ],
+                            [
+                                113.93989587727188,
+                                22.517808721393745
+                            ],
+                            [
+                                113.940002953017085,
+                                22.518172778927624
+                            ],
+                            [
+                                113.940270549597642,
+                                22.518064227866013
+                            ],
+                            [
+                                113.940807139147211,
+                                22.517765672851461
+                            ],
+                            [
+                                113.940943658585667,
+                                22.517689714199683
+                            ],
+                            [
+                                113.941090777758191,
+                                22.517605143255675
+                            ],
+                            [
+                                113.942100049685891,
+                                22.517025479889156
+                            ],
+                            [
+                                113.941905152309403,
+                                22.51694156708059
+                            ],
+                            [
+                                113.941815936765607,
+                                22.516885617460481
+                            ],
+                            [
+                                113.941715008527808,
+                                22.516822322474681
+                            ],
+                            [
+                                113.941568671378064,
+                                22.51668636348608
+                            ],
+                            [
+                                113.9415106039622,
+                                22.516632414183508
+                            ],
+                            [
+                                113.940008468084599,
+                                22.517003397578378
+                            ],
+                            [
+                                113.938910387743974,
+                                22.517277218009518
+                            ],
+                            [
+                                113.937964422428834,
+                                22.517524539217497
+                            ],
+                            [
+                                113.93827605919337,
+                                22.518662055598742
+                            ],
+                            [
+                                113.93767280524871,
+                                22.518941857758509
+                            ],
+                            [
+                                113.93732769428442,
+                                22.517677878141544
+                            ],
+                            [
+                                113.936683106863541,
+                                22.517847469377948
+                            ],
+                            [
+                                113.937076704492043,
+                                22.519249238875165
+                            ],
+                            [
+                                113.937139831212193,
+                                22.519440697010353
+                            ],
+                            [
+                                113.936227582527181,
+                                22.519935655459594
+                            ],
+                            [
+                                113.936152629209744,
+                                22.519976322854784
+                            ],
+                            [
+                                113.935685602298136,
+                                22.520242858270116
+                            ]
+                        ]
+                    ]
+                ]
+            }
+           
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "大家财险",
+                "状态": "在建"
+            },
+            "geometry": {
+                "type": "MultiPolygon",
+                "coordinates": [
+                    [
+                        [
+                            [
+                                113.937399569892946,
+                                22.520285437879682
+                            ],
+                            [
+                                113.937467449964245,
+                                22.520523273232111
+                            ],
+                            [
+                                113.937644283681223,
+                                22.521145977049891
+                            ],
+                            [
+                                113.938260349534929,
+                                22.520986989110391
+                            ],
+                            [
+                                113.938723229317077,
+                                22.520870909250046
+                            ],
+                            [
+                                113.938491269555939,
+                                22.520170469860616
+                            ],
+                            [
+                                113.939401217072358,
+                                22.519931498044159
+                            ],
+                            [
+                                113.939236167423928,
+                                22.519357352067004
+                            ],
+                            [
+                                113.938487000922819,
+                                22.519551672952694
+                            ],
+                            [
+                                113.938307058449638,
+                                22.519587856480857
+                            ],
+                            [
+                                113.938086788964455,
+                                22.519638936861519
+                            ],
+                            [
+                                113.937901548218292,
+                                22.519697855073023
+                            ],
+                            [
+                                113.937699902454398,
+                                22.519764935775409
+                            ],
+                            [
+                                113.937564273177259,
+                                22.519841078527758
+                            ],
+                            [
+                                113.937435782282918,
+                                22.519933877507203
+                            ],
+                            [
+                                113.937369157374889,
+                                22.520045712174486
+                            ],
+                            [
+                                113.937383434141026,
+                                22.520148028997774
+                            ],
+                            [
+                                113.937399569892946,
+                                22.520285437879682
+                            ]
+                        ]
+                    ]
+                ]
+            },
+            "item":{
+             "id": "202207111380",
+            "name": "安邦财险深圳总部大厦",
+            "unit": "安邦财产保险股份有限公司",
+            "industryCode": "3",
+            "projectCode": null,
+            "department": 3,
+            "ifConcert": 1,
+            "ganttNo": "c2618181f03443cd9f6f1a08e324e3ff",
+            "departmentName": "南山区大湾区中心",
+            "area": "bc36f7c6e43843659acf4353495e3aef",
+            "street": "6",
+            "government": 2,
+            "isRoom": 1,
+            "investment": 593938,
+            "cumulative": 422000,
+            "remainingQuota": 189100,
+            "planInvest": null,
+            "time": null,
+            "projectStatus": 2,
+            "accumulatedInvestment": 16800,
+            "monthInvest": 4200,
+            "month": "202305",
+            "projectValues": null,
+            "completeRate": 46.67,
+            "completeRateMonthly": 11.67,
+            "buildingSafetyMonth": null,
+            "equipmentPurchaseMonth": null,
+            "otherFeeMonth": null,
+            "landPriceMonth": null,
+            "buildingSafetyTotal": null,
+            "equipmentPurchaseTotal": null,
+            "otherFeeTotal": null,
+            "landPriceTotal": null,
+            "planInvestNext": 36000,
+            "investProgress": 3,
+            "ifKeyProject": null,
+            "startDate": "2019-03-03 00:00:00",
+            "endDate": "2024-07-09 00:00:00",
+            "address": "后海滨路园区",
+            "ifFull": null,
+            "planInvestSecond": null,
+            "plateformTotal": null,
+            "predictionTotal": 2000,
+            "predictionX1Total": null
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "腾讯音乐",
+                "状态": "在建",
+                "id": "202207114905",
+                "name2": "腾讯音乐总部大楼",
+                "unit": "腾讯音乐娱乐科技（深圳）有限公司",
+                "industryCode": "3",
+                "projectCode": null,
+                "department": 3,
+                "ifConcert": 0,
+                "ganttNo": "76072f28032b47a785c2d8855193e7a1",
+                "departmentName": "南山区大湾区中心",
+                "area": "bc36f7c6e43843659acf4353495e3aef",
+                "street": "6",
+                "government": 2,
+                "isRoom": 1,
+                "investment": 157600,
+                "cumulative": 109000,
+                "remainingQuota": 103900,
+                "planInvest": null,
+                "time": null,
+                "projectStatus": 2,
+                "accumulatedInvestment": 55300,
+                "monthInvest": 1300,
+                "month": "202305",
+                "projectValues": null,
+                "completeRate": 85.34,
+                "completeRateMonthly": 2.01,
+                "buildingSafetyMonth": null,
+                "equipmentPurchaseMonth": null,
+                "otherFeeMonth": null,
+                "landPriceMonth": null,
+                "buildingSafetyTotal": null,
+                "equipmentPurchaseTotal": null,
+                "otherFeeTotal": null,
+                "landPriceTotal": null,
+                "planInvestNext": 64800,
+                "investProgress": 3,
+                "ifKeyProject": null,
+                "startDate": "2023-03-30 00:00:00",
+                "endDate": "2027-09-28 00:00:00",
+                "address": "南山区后海中心区滨海大道与科苑大道交汇处西南侧",
+                "ifFull": null,
+                "planInvestSecond": null,
+                "plateformTotal": null,
+                "predictionTotal": 210,
+                "predictionX1Total": null
+            },
+            "geometry": {
+                "type": "MultiPolygon",
+                "coordinates": [
+                    [
+                        [
+                            [
+                                113.940150759014941,
+                                22.523771017825855
+                            ],
+                            [
+                                113.940364670769611,
+                                22.523768368078958
+                            ],
+                            [
+                                113.940475904882049,
+                                22.523725972127039
+                            ],
+                            [
+                                113.94057573036747,
+                                22.52364912943078
+                            ],
+                            [
+                                113.940647034285718,
+                                22.52350604291582
+                            ],
+                            [
+                                113.940666999382799,
+                                22.52261837322407
+                            ],
+                            [
+                                113.940039524902517,
+                                22.522655469984052
+                            ],
+                            [
+                                113.940150759014941,
+                                22.523771017825855
+                            ]
+                        ]
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "工商银行",
+                "状态": "在建",
+                "id": "202207013448",
+                "name2": "工商银行大厦",
+                "unit": "中建一局",
+                "industryCode": "3",
+                "projectCode": null,
+                "department": 3,
+                "ifConcert": 1,
+                "ganttNo": "180167488e9c4bffb4ff0c16ee73f2ae",
+                "departmentName": "南山区大湾区中心",
+                "area": "bc36f7c6e43843659acf4353495e3aef",
+                "street": "6",
+                "government": 2,
+                "isRoom": 1,
+                "investment": 94590,
+                "cumulative": 179000,
+                "remainingQuota": 6100,
+                "planInvest": null,
+                "time": null,
+                "projectStatus": 2,
+                "accumulatedInvestment": 1230,
+                "monthInvest": 280,
+                "month": "202305",
+                "projectValues": null,
+                "completeRate": 34.17,
+                "completeRateMonthly": 7.78,
+                "buildingSafetyMonth": null,
+                "equipmentPurchaseMonth": null,
+                "otherFeeMonth": null,
+                "landPriceMonth": null,
+                "buildingSafetyTotal": null,
+                "equipmentPurchaseTotal": null,
+                "otherFeeTotal": null,
+                "landPriceTotal": null,
+                "planInvestNext": 3600,
+                "investProgress": 3,
+                "ifKeyProject": null,
+                "startDate": "2016-10-01 00:00:00",
+                "endDate": "2023-12-31 00:00:00",
+                "address": "海德三道与中心路交汇处东南角",
+                "ifFull": null,
+                "planInvestSecond": null,
+                "plateformTotal": null,
+                "predictionTotal": 300,
+                "predictionX1Total": null
+            },
+            "geometry": {
+                "type": "MultiPolygon",
+                "coordinates": [
+                    [
+                        [
+                            [
+                                113.93869996195869,
+                                22.520272424366194
+                            ],
+                            [
+                                113.938867622942496,
+                                22.520884829096666
+                            ],
+                            [
+                                113.939629050463637,
+                                22.520697446541607
+                            ],
+                            [
+                                113.939445325583904,
+                                22.520092236868486
+                            ],
+                            [
+                                113.93869996195869,
+                                22.520272424366194
+                            ]
+                        ]
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "中金财富",
+                "状态": "在建",
+                "id": "202207115299",
+            "name2": "中国中投证券大厦（中金大厦）",
+            "unit": "中建四局第六建设有限公司",
+            "industryCode": "3",
+            "projectCode": null,
+            "department": 3,
+            "ifConcert": 0,
+            "ganttNo": "7f662a9a0fb44ad2bd93e0182ae5c382",
+            "departmentName": "南山区大湾区中心",
+            "area": "bc36f7c6e43843659acf4353495e3aef",
+            "street": "6",
+            "government": 2,
+            "isRoom": 1,
+            "investment": 187200,
+            "cumulative": 101000,
+            "remainingQuota": 95400,
+            "planInvest": null,
+            "time": null,
+            "projectStatus": 2,
+            "accumulatedInvestment": 9280,
+            "monthInvest": 2600,
+            "month": "202305",
+            "projectValues": null,
+            "completeRate": 30.93,
+            "completeRateMonthly": 8.67,
+            "buildingSafetyMonth": null,
+            "equipmentPurchaseMonth": null,
+            "otherFeeMonth": null,
+            "landPriceMonth": null,
+            "buildingSafetyTotal": null,
+            "equipmentPurchaseTotal": null,
+            "otherFeeTotal": null,
+            "landPriceTotal": null,
+            "planInvestNext": 30000,
+            "investProgress": 3,
+            "ifKeyProject": null,
+            "startDate": "2020-12-19 00:00:00",
+            "endDate": "2024-12-31 00:00:00",
+            "address": "海德三道与科苑大道交界西南角",
+            "ifFull": null,
+            "planInvestSecond": null,
+            "plateformTotal": null,
+            "predictionTotal": 2000,
+            "predictionX1Total": null
+            },
+            "geometry": {
+                "type": "MultiPolygon",
+                "coordinates": [
+                    [
+                        [
+                            [
+                                113.939816433017626,
+                                22.520652831647613
+                            ],
+                            [
+                                113.940479707772496,
+                                22.520465449092569
+                            ],
+                            [
+                                113.940354212861607,
+                                22.519869651984187
+                            ],
+                            [
+                                113.939667932387223,
+                                22.520044550219311
+                            ],
+                            [
+                                113.939816433017626,
+                                22.520652831647613
+                            ]
+                        ]
+                    ]
+                ]
+            }
+            
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "新型消费电子商务",
+                "状态": "在建",
+                "id": "202207117502",
+                "name2": "新型消费电子商务总部项目",
+                "unit": "深圳市分期乐网络科技有限公司",
+                "industryCode": "3",
+                "projectCode": null,
+                "department": 3,
+                "ifConcert": 0,
+                "ganttNo": "dde9c0977dfa44c1bfbb76741d53a075",
+                "departmentName": "南山区大湾区中心",
+                "area": "bc36f7c6e43843659acf4353495e3aef",
+                "street": "6",
+                "government": 2,
+                "isRoom": 1,
+                "investment": 200000,
+                "cumulative": 127000,
+                "remainingQuota": 81800,
+                "planInvest": null,
+                "time": null,
+                "projectStatus": 2,
+                "accumulatedInvestment": 9300,
+                "monthInvest": 6050,
+                "month": "202305",
+                "projectValues": null,
+                "completeRate": 38.75,
+                "completeRateMonthly": 25.21,
+                "buildingSafetyMonth": null,
+                "equipmentPurchaseMonth": null,
+                "otherFeeMonth": null,
+                "landPriceMonth": null,
+                "buildingSafetyTotal": null,
+                "equipmentPurchaseTotal": null,
+                "otherFeeTotal": null,
+                "landPriceTotal": null,
+                "planInvestNext": 24000,
+                "investProgress": 3,
+                "ifKeyProject": null,
+                "startDate": "2021-01-04 00:00:00",
+                "endDate": "2025-02-28 00:00:00",
+                "address": "后海中心区",
+                "ifFull": null,
+                "planInvestSecond": null,
+                "plateformTotal": null,
+                "predictionTotal": 10000,
+                "predictionX1Total": null
+            },
+            "geometry": {
+                "type": "MultiPolygon",
+                "coordinates": [
+                    [
+                        [
+                            [
+                                113.939046023641751,
+                                22.518721390875417
+                            ],
+                            [
+                                113.938966163253426,
+                                22.518406942303621
+                            ],
+                            [
+                                113.938270237011537,
+                                22.518806185872641
+                            ],
+                            [
+                                113.938361506026922,
+                                22.51910296794652
+                            ],
+                            [
+                                113.938437563539708,
+                                22.519343219628997
+                            ],
+                            [
+                                113.939182927164822,
+                                22.519152431561789
+                            ],
+                            [
+                                113.939046023641751,
+                                22.518721390875417
+                            ]
+                        ]
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "建筑装饰产业总部项目",
+                "状态": "在建",
+                "id": "202207112761",
+                "name2": "建筑装饰产业总部项目",
+                "unit": "深圳市建工集团股份有限公司",
+                "industryCode": "3",
+                "projectCode": null,
+                "department": 3,
+                "ifConcert": 0,
+                "ganttNo": "c7364a10213c4f36a04cd15b0fbd3b41",
+                "departmentName": "南山区大湾区中心",
+                "area": "bc36f7c6e43843659acf4353495e3aef",
+                "street": "6",
+                "government": 2,
+                "isRoom": 1,
+                "investment": 186167,
+                "cumulative": 106000,
+                "remainingQuota": 89800,
+                "planInvest": null,
+                "time": null,
+                "projectStatus": 2,
+                "accumulatedInvestment": 9120,
+                "monthInvest": 2840,
+                "month": "202305",
+                "projectValues": null,
+                "completeRate": 25.33,
+                "completeRateMonthly": 7.89,
+                "buildingSafetyMonth": null,
+                "equipmentPurchaseMonth": null,
+                "otherFeeMonth": null,
+                "landPriceMonth": null,
+                "buildingSafetyTotal": null,
+                "equipmentPurchaseTotal": null,
+                "otherFeeTotal": null,
+                "landPriceTotal": null,
+                "planInvestNext": 36000,
+                "investProgress": 2,
+                "ifKeyProject": null,
+                "startDate": "2020-09-08 00:00:00",
+                "endDate": "2024-05-12 00:00:00",
+                "address": "科苑大道与深圳湾大街东延段交汇处",
+                "ifFull": null,
+                "planInvestSecond": null,
+                "plateformTotal": null,
+                "predictionTotal": 3500,
+                "predictionX1Total": null
+            },
+            "geometry": {
+                "type": "MultiPolygon",
+                "coordinates": [
+                    [
+                        [
+                            [
+                                113.939935896541314,
+                                22.518247951176196
+                            ],
+                            [
+                                113.939837021774764,
+                                22.517944100953628
+                            ],
+                            [
+                                113.939205744418842,
+                                22.518276216279773
+                            ],
+                            [
+                                113.939297013434114,
+                                22.518611863926594
+                            ],
+                            [
+                                113.939430114081418,
+                                22.519095901712852
+                            ],
+                            [
+                                113.940118434571971,
+                                22.51892277890536
+                            ],
+                            [
+                                113.939935896541314,
+                                22.518247951176196
+                            ]
+                        ]
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "小米",
+                "状态": "在建",
+                "id": "202207113911",
+                "name2": "小米国际总部",
+                "unit": "中建八局第一建设有限公司",
+                "industryCode": "3",
+                "projectCode": null,
+                "department": 3,
+                "ifConcert": 1,
+                "ganttNo": "cbd4ded62419447490f5236fd1c497fe",
+                "departmentName": "南山区大湾区中心",
+                "area": "bc36f7c6e43843659acf4353495e3aef",
+                "street": "6",
+                "government": 2,
+                "isRoom": 1,
+                "investment": 105000,
+                "cumulative": 69400,
+                "remainingQuota": 38100,
+                "planInvest": null,
+                "time": null,
+                "projectStatus": 2,
+                "accumulatedInvestment": 2480,
+                "monthInvest": 1080,
+                "month": "202305",
+                "projectValues": null,
+                "completeRate": 15.9,
+                "completeRateMonthly": 6.92,
+                "buildingSafetyMonth": null,
+                "equipmentPurchaseMonth": null,
+                "otherFeeMonth": null,
+                "landPriceMonth": null,
+                "buildingSafetyTotal": null,
+                "equipmentPurchaseTotal": null,
+                "otherFeeTotal": null,
+                "landPriceTotal": null,
+                "planInvestNext": 15600,
+                "investProgress": 2,
+                "ifKeyProject": null,
+                "startDate": "2021-07-31 00:00:00",
+                "endDate": "2024-07-30 00:00:00",
+                "address": "深圳市南山区登良路以东，汀泽一路以西，海德二道以北，海德三道以南",
+                "ifFull": null,
+                "planInvestSecond": null,
+                "plateformTotal": null,
+                "predictionTotal": 960,
+                "predictionX1Total": null
+            },
+            "geometry": {
+                "type": "MultiPolygon",
+                "coordinates": [
+                    [
+                        [
+                            [
+                                113.942594423518841,
+                                22.519344102901837
+                            ],
+                            [
+                                113.943022247028168,
+                                22.519140948933661
+                            ],
+                            [
+                                113.942822596057098,
+                                22.518451989751426
+                            ],
+                            [
+                                113.942371004575136,
+                                22.518544734459603
+                            ],
+                            [
+                                113.942594423518841,
+                                22.519344102901837
+                            ]
+                        ]
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "深圳湾广场创意设计馆+科技生活馆",
+                "状态": "在建",
+                "id": "202207119948",
+                "name2": "深圳湾综合发展项目地铁连接通道",
+                "unit": "华润置地（深圳）发展有限公司",
+                "industryCode": "2",
+                "projectCode": null,
+                "department": 3,
+                "ifConcert": 0,
+                "ganttNo": "f63855b5158f482192ab8021078aa948",
+                "departmentName": "南山区大湾区中心",
+                "area": "bc36f7c6e43843659acf4353495e3aef",
+                "street": "6",
+                "government": 2,
+                "isRoom": 1,
+                "investment": 5000,
+                "cumulative": 2270,
+                "remainingQuota": 0,
+                "planInvest": null,
+                "time": null,
+                "projectStatus": 2,
+                "accumulatedInvestment": 80,
+                "monthInvest": 10,
+                "month": "202305",
+                "projectValues": null,
+                "completeRate": 6.67,
+                "completeRateMonthly": 0.83,
+                "buildingSafetyMonth": null,
+                "equipmentPurchaseMonth": null,
+                "otherFeeMonth": null,
+                "landPriceMonth": null,
+                "buildingSafetyTotal": null,
+                "equipmentPurchaseTotal": null,
+                "otherFeeTotal": null,
+                "landPriceTotal": null,
+                "planInvestNext": 1200,
+                "investProgress": 1,
+                "ifKeyProject": null,
+                "startDate": "2020-09-01 00:00:00",
+                "endDate": "2025-08-01 00:00:00",
+                "address": "深圳湾体育中心",
+                "ifFull": null,
+                "planInvestSecond": null,
+                "plateformTotal": null,
+                "predictionTotal": 100,
+                "predictionX1Total": null
+            },
+            "geometry": {
+                "type": "MultiPolygon",
+                "coordinates": [
+                    [
+                        [
+                            [
+                                113.939469073639131,
+                                22.51505150377043
+                            ],
+                            [
+                                113.939503963695657,
+                                22.515183146945159
+                            ],
+                            [
+                                113.939656784424756,
+                                22.515759736743288
+                            ],
+                            [
+                                113.939682405980392,
+                                22.515856406872413
+                            ],
+                            [
+                                113.939882927202845,
+                                22.516612962859792
+                            ],
+                            [
+                                113.939976707595818,
+                                22.516664694038845
+                            ],
+                            [
+                                113.940470989059676,
+                                22.516543627548693
+                            ],
+                            [
+                                113.941213472602058,
+                                22.516361767532445
+                            ],
+                            [
+                                113.941268840073889,
+                                22.516273495931337
+                            ],
+                            [
+                                113.941136848682135,
+                                22.515808341762803
+                            ],
+                            [
+                                113.94106747254196,
+                                22.515563846001637
+                            ],
+                            [
+                                113.940936715033132,
+                                22.51510303569405
+                            ],
+                            [
+                                113.9408178697295,
+                                22.514861317460294
+                            ],
+                            [
+                                113.94074353829113,
+                                22.51459935857077
+                            ],
+                            [
+                                113.940730216937709,
+                                22.514522384708325
+                            ],
+                            [
+                                113.940664957128604,
+                                22.51414529842474
+                            ],
+                            [
+                                113.940643720112078,
+                                22.514079005807346
+                            ],
+                            [
+                                113.940618029052516,
+                                22.514014087774271
+                            ],
+                            [
+                                113.940587986871492,
+                                22.513950802630259
+                            ],
+                            [
+                                113.940553711071558,
+                                22.513889404170133
+                            ],
+                            [
+                                113.940520561522774,
+                                22.513837719194598
+                            ],
+                            [
+                                113.940484414725333,
+                                22.513787798543518
+                            ],
+                            [
+                                113.940445379473559,
+                                22.513739796674955
+                            ],
+                            [
+                                113.940385900308414,
+                                22.513675893762038
+                            ],
+                            [
+                                113.940321303932706,
+                                22.513616430071224
+                            ],
+                            [
+                                113.940251978972995,
+                                22.513561761538149
+                            ],
+                            [
+                                113.940178327673962,
+                                22.513512212496579
+                            ],
+                            [
+                                113.940100797002032,
+                                22.513468073885122
+                            ],
+                            [
+                                113.940019834905272,
+                                22.51342960955251
+                            ],
+                            [
+                                113.939944288608899,
+                                22.513399977104317
+                            ],
+                            [
+                                113.939866711755542,
+                                22.513375287995672
+                            ],
+                            [
+                                113.93978747362668,
+                                22.51335566065973
+                            ],
+                            [
+                                113.939706962950893,
+                                22.513341190058753
+                            ],
+                            [
+                                113.939625564582371,
+                                22.513331940450431
+                            ],
+                            [
+                                113.939543673097404,
+                                22.513327968873316
+                            ],
+                            [
+                                113.939275076897928,
+                                22.5133236100007
+                            ],
+                            [
+                                113.939025683305374,
+                                22.513319562274894
+                            ],
+                            [
+                                113.939059549211066,
+                                22.513491577646246
+                            ],
+                            [
+                                113.939100854132107,
+                                22.513662187983794
+                            ],
+                            [
+                                113.939144605053656,
+                                22.513827269929884
+                            ],
+                            [
+                                113.939245971595582,
+                                22.514209724001031
+                            ],
+                            [
+                                113.939434236298169,
+                                22.514920059495086
+                            ],
+                            [
+                                113.939469073639131,
+                                22.51505150377043
+                            ]
+                        ]
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "腾创未来",
+                "状态": "在建",
+                "id": "202207111507",
+                "name2": "腾创未来项目",
+                "unit": "腾创未来（深圳）有限公司",
+                "industryCode": "3",
+                "projectCode": null,
+                "department": 3,
+                "ifConcert": 1,
+                "ganttNo": "7559800c3aee4ae58ec6785f7b51f3a4",
+                "departmentName": "南山区大湾区中心",
+                "area": "bc36f7c6e43843659acf4353495e3aef",
+                "street": "6",
+                "government": 2,
+                "isRoom": 1,
+                "investment": 435000,
+                "cumulative": 264000,
+                "remainingQuota": 181900,
+                "planInvest": null,
+                "time": null,
+                "projectStatus": 2,
+                "accumulatedInvestment": 10800,
+                "monthInvest": 1150,
+                "month": "202305",
+                "projectValues": null,
+                "completeRate": 45,
+                "completeRateMonthly": 4.79,
+                "buildingSafetyMonth": null,
+                "equipmentPurchaseMonth": null,
+                "otherFeeMonth": null,
+                "landPriceMonth": null,
+                "buildingSafetyTotal": null,
+                "equipmentPurchaseTotal": null,
+                "otherFeeTotal": null,
+                "landPriceTotal": null,
+                "planInvestNext": 24000,
+                "investProgress": 3,
+                "ifKeyProject": null,
+                "startDate": "2022-10-13 00:00:00",
+                "endDate": "2025-12-31 00:00:00",
+                "address": "深圳市南山区创业路、科苑大道、中心路及海德一道交汇处",
+                "ifFull": null,
+                "planInvestSecond": null,
+                "plateformTotal": null,
+                "predictionTotal": 3700,
+                "predictionX1Total": null
+            },
+            "geometry": {
+                "type": "MultiPolygon",
+                "coordinates": [
+                    [
+                        [
+                            [
+                                113.937464439354329,
+                                22.515917620567258
+                            ],
+                            [
+                                113.937784831626772,
+                                22.517098587046181
+                            ],
+                            [
+                                113.937881227297694,
+                                22.517188524798964
+                            ],
+                            [
+                                113.939451671560448,
+                                22.516792939405239
+                            ],
+                            [
+                                113.939526029716816,
+                                22.516709658269928
+                            ],
+                            [
+                                113.939402004492294,
+                                22.516250624113617
+                            ],
+                            [
+                                113.93919569848893,
+                                22.515484803069715
+                            ],
+                            [
+                                113.939121542413858,
+                                22.515447704363446
+                            ],
+                            [
+                                113.938439334544157,
+                                22.515641162779165
+                            ],
+                            [
+                                113.938188347375458,
+                                22.515688156747412
+                            ],
+                            [
+                                113.937494862359429,
+                                22.515854022980086
+                            ],
+                            [
+                                113.937464439354329,
+                                22.515917620567258
+                            ]
+                        ]
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "登良东地块K06",
+                "状态": "在建",
+                "id": "202212120020",
+                "name2": "登良东地块（T107-0097宗地）K06地块",
+                "unit": "深圳市勘察测绘院（集团）有限公司",
+                "industryCode": "3",
+                "projectCode": null,
+                "department": 3,
+                "ifConcert": 0,
+                "ganttNo": "798514da05a64d33b0e1a03d28686135",
+                "departmentName": "南山区大湾区中心",
+                "area": "bc36f7c6e43843659acf4353495e3aef",
+                "street": "6",
+                "government": 2,
+                "isRoom": 0,
+                "investment": 198500,
+                "cumulative": 8120,
+                "remainingQuota": 196600,
+                "planInvest": null,
+                "time": null,
+                "projectStatus": 2,
+                "accumulatedInvestment": 6210,
+                "monthInvest": 2300,
+                "month": "202305",
+                "projectValues": null,
+                "completeRate": 86.25,
+                "completeRateMonthly": 31.94,
+                "buildingSafetyMonth": null,
+                "equipmentPurchaseMonth": null,
+                "otherFeeMonth": null,
+                "landPriceMonth": null,
+                "buildingSafetyTotal": null,
+                "equipmentPurchaseTotal": null,
+                "otherFeeTotal": null,
+                "landPriceTotal": null,
+                "planInvestNext": 7200,
+                "investProgress": 3,
+                "ifKeyProject": null,
+                "startDate": "2023-01-16 00:00:00",
+                "endDate": "2025-07-30 00:00:00",
+                "address": "创业路与科苑南路交汇处",
+                "ifFull": null,
+                "planInvestSecond": null,
+                "plateformTotal": null,
+                "predictionTotal": 400,
+                "predictionX1Total": null
+            },
+            "geometry": {
+                "type": "MultiPolygon",
+                "coordinates": [
+                    [
+                        [
+                            [
+                                113.938221841631503,
+                                22.515016398579327
+                            ],
+                            [
+                                113.939015854204072,
+                                22.514803685646807
+                            ],
+                            [
+                                113.938880872066704,
+                                22.514275569366749
+                            ],
+                            [
+                                113.938094799619861,
+                                22.514473613209059
+                            ],
+                            [
+                                113.938221841631503,
+                                22.515016398579327
+                            ]
+                        ]
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "OBJECTID": 1,
+                "name": "深圳联想后海项目",
+                "Shape_Leng": 0.00645680421,
+                "Shape_Area": 2.63398e-06,
+                "id": "202207016120",
+                "name2": "深圳联想后海项目",
+                "unit": "深圳联想海外控股有限公司",
+                "industryCode": "3",
+                "projectCode": null,
+                "department": 3,
+                "ifConcert": 0,
+                "ganttNo": "fd9b8468822246fca74fbb1c6d2106d3",
+                "departmentName": "南山区大湾区中心",
+                "area": "bc36f7c6e43843659acf4353495e3aef",
+                "street": "6",
+                "government": 2,
+                "isRoom": 0,
+                "investment": 45000,
+                "cumulative": 1050000,
+                "remainingQuota": -140400,
+                "planInvest": null,
+                "time": null,
+                "projectStatus": 4,
+                "accumulatedInvestment": 6670,
+                "monthInvest": 350,
+                "month": "202305",
+                "projectValues": null,
+                "completeRate": null,
+                "completeRateMonthly": null,
+                "buildingSafetyMonth": null,
+                "equipmentPurchaseMonth": null,
+                "otherFeeMonth": null,
+                "landPriceMonth": null,
+                "buildingSafetyTotal": null,
+                "equipmentPurchaseTotal": null,
+                "otherFeeTotal": null,
+                "landPriceTotal": null,
+                "planInvestNext": 0,
+                "investProgress": 7,
+                "ifKeyProject": null,
+                "startDate": "2017-07-01 00:00:00",
+                "endDate": "2022-10-01 00:00:00",
+                "address": "深圳市南山后海中心区",
+                "ifFull": null,
+                "planInvestSecond": null,
+                "plateformTotal": null,
+                "predictionTotal": 300,
+                "predictionX1Total": null
+            },
+            "geometry": {
+                "type": "MultiPolygon",
+                "coordinates": [
+                    [
+                        [
+                            [
+                                113.935566963000042,
+                                22.520098508000046
+                            ],
+                            [
+                                113.936871349000057,
+                                22.519376431000069
+                            ],
+                            [
+                                113.93646349100004,
+                                22.517895167000063
+                            ],
+                            [
+                                113.935053575000097,
+                                22.51824804000006
+                            ],
+                            [
+                                113.934965633000047,
+                                22.518420280000043
+                            ],
+                            [
+                                113.935566963000042,
+                                22.520098508000046
+                            ]
+                        ]
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "OBJECTID": 2,
+                "name": "舜远金融大厦",
+                "Shape_Leng": 0.00261083771,
+                "Shape_Area": 3.393e-07,
+                "id": "202209120316",
+                "name2": "舜远金融大厦",
+                "unit": "中山证券有限责任公司",
+                "industryCode": "4",
+                "projectCode": null,
+                "department": 3,
+                "ifConcert": 0,
+                "ganttNo": "256360ad4c60b211929ec7a3ae53cbf4",
+                "departmentName": "南山区大湾区中心",
+                "area": "bc36f7c6e43843659acf4353495e3aef",
+                "street": "6",
+                "government": 2,
+                "isRoom": 1,
+                "investment": 83953,
+                "cumulative": 92500,
+                "remainingQuota": -7000,
+                "planInvest": null,
+                "time": null,
+                "projectStatus": 4,
+                "accumulatedInvestment": 1530,
+                "monthInvest": 50,
+                "month": "202305",
+                "projectValues": null,
+                "completeRate": null,
+                "completeRateMonthly": null,
+                "buildingSafetyMonth": null,
+                "equipmentPurchaseMonth": null,
+                "otherFeeMonth": null,
+                "landPriceMonth": null,
+                "buildingSafetyTotal": null,
+                "equipmentPurchaseTotal": null,
+                "otherFeeTotal": null,
+                "landPriceTotal": null,
+                "planInvestNext": 0,
+                "investProgress": 7,
+                "ifKeyProject": null,
+                "startDate": "2017-01-01 00:00:00",
+                "endDate": "2021-12-30 00:00:00",
+                "address": null,
+                "ifFull": null,
+                "planInvestSecond": null,
+                "plateformTotal": null,
+                "predictionTotal": 800,
+                "predictionX1Total": null
+            },
+            "geometry": {
+                "type": "MultiPolygon",
+                "coordinates": [
+                    [
+                        [
+                            [
+                                113.939394937000088,
+                                22.522719064000057
+                            ],
+                            [
+                                113.939654484000016,
+                                22.52362263200007
+                            ],
+                            [
+                                113.939931143000081,
+                                22.523617332000072
+                            ],
+                            [
+                                113.939848430000097,
+                                22.522681968000029
+                            ],
+                            [
+                                113.939394937000088,
+                                22.522719064000057
+                            ]
+                        ]
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "OBJECTID": 3,
+                "name": "阳光保险深圳总部大厦",
+                "Shape_Leng": 0.0028269135,
+                "Shape_Area": 3.2901e-07,
+                "id": "202209120344",
+                "name2": "阳光保险深圳总部大厦",
+                "unit": "阳光保险集团股份有限公司",
+                "industryCode": "4",
+                "projectCode": null,
+                "department": 3,
+                "ifConcert": 0,
+                "ganttNo": "156860ad4c60b2117ca61d261a497bfe",
+                "departmentName": "南山区大湾区中心",
+                "area": "bc36f7c6e43843659acf4353495e3aef",
+                "street": "6",
+                "government": 2,
+                "isRoom": 1,
+                "investment": 220000,
+                "cumulative": 199000,
+                "remainingQuota": 23900,
+                "planInvest": null,
+                "time": null,
+                "projectStatus": 2,
+                "accumulatedInvestment": 3220,
+                "monthInvest": 760,
+                "month": "202305",
+                "projectValues": null,
+                "completeRate": 33.54,
+                "completeRateMonthly": 7.92,
+                "buildingSafetyMonth": null,
+                "equipmentPurchaseMonth": null,
+                "otherFeeMonth": null,
+                "landPriceMonth": null,
+                "buildingSafetyTotal": null,
+                "equipmentPurchaseTotal": null,
+                "otherFeeTotal": null,
+                "landPriceTotal": null,
+                "planInvestNext": 9600,
+                "investProgress": 3,
+                "ifKeyProject": null,
+                "startDate": "2017-10-01 00:00:00",
+                "endDate": "2023-01-01 00:00:00",
+                "address": null,
+                "ifFull": null,
+                "planInvestSecond": null,
+                "plateformTotal": null,
+                "predictionTotal": 22000,
+                "predictionX1Total": null
+            },
+            "geometry": {
+                "type": "MultiPolygon",
+                "coordinates": [
+                    [
+                        [
+                            [
+                                113.938023050000083,
+                                22.523320560000059
+                            ],
+                            [
+                                113.938256927000111,
+                                22.523254316000077
+                            ],
+                            [
+                                113.938442317000067,
+                                22.523227819000056
+                            ],
+                            [
+                                113.939123983000059,
+                                22.523203971000044
+                            ],
+                            [
+                                113.93900704400005,
+                                22.522806507000041
+                            ],
+                            [
+                                113.937997381000059,
+                                22.523063534000073
+                            ],
+                            [
+                                113.938023050000083,
+                                22.523320560000059
+                            ]
+                        ]
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "OBJECTID": 4,
+                "name": "红土创新广场",
+                "Shape_Leng": 0.0040356236,
+                "Shape_Area": 9.1913e-07,
+                "id": "202207113394",
+                "name2": "红土创新广场（深创投广场）",
+                "unit": "深圳市创新投资集团有限公司",
+                "industryCode": "4",
+                "projectCode": null,
+                "department": 3,
+                "ifConcert": 0,
+                "ganttNo": "9bd72c49ba0a4535975362a8a2e79990",
+                "departmentName": "南山区大湾区中心",
+                "area": "bc36f7c6e43843659acf4353495e3aef",
+                "street": "6",
+                "government": 2,
+                "isRoom": 1,
+                "investment": 150000,
+                "cumulative": 300000,
+                "remainingQuota": -40600,
+                "planInvest": null,
+                "time": null,
+                "projectStatus": 4,
+                "accumulatedInvestment": 0,
+                "monthInvest": 0,
+                "month": "202305",
+                "projectValues": null,
+                "completeRate": null,
+                "completeRateMonthly": null,
+                "buildingSafetyMonth": null,
+                "equipmentPurchaseMonth": null,
+                "otherFeeMonth": null,
+                "landPriceMonth": null,
+                "buildingSafetyTotal": null,
+                "equipmentPurchaseTotal": null,
+                "otherFeeTotal": null,
+                "landPriceTotal": null,
+                "planInvestNext": 0,
+                "investProgress": 7,
+                "ifKeyProject": null,
+                "startDate": "2017-10-01 00:00:00",
+                "endDate": "2022-07-15 00:00:00",
+                "address": "南山区海德三道与科苑路交汇处",
+                "ifFull": null,
+                "planInvestSecond": null,
+                "plateformTotal": null,
+                "predictionTotal": 0,
+                "predictionX1Total": null
+            },
+            "geometry": {
+                "type": "MultiPolygon",
+                "coordinates": [
+                    [
+                        [
+                            [
+                                113.939905093000107,
+                                22.521129195000071
+                            ],
+                            [
+                                113.94003439100004,
+                                22.522447021000062
+                            ],
+                            [
+                                113.940684683000086,
+                                22.522390493000046
+                            ],
+                            [
+                                113.940654260000088,
+                                22.521715682000035
+                            ],
+                            [
+                                113.940635245000067,
+                                22.521524898000052
+                            ],
+                            [
+                                113.940494539000042,
+                                22.520963141000038
+                            ],
+                            [
+                                113.939905093000107,
+                                22.521129195000071
+                            ]
+                        ]
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "OBJECTID": 5,
+                "name": "喜之郎大厦",
+                "Shape_Leng": 0.00282960301,
+                "Shape_Area": 4.9385e-07,
+                "id": "202207110949",
+                "name2": "喜之郎大厦",
+                "unit": "广东喜之郎集团有限公司",
+                "industryCode": "1",
+                "projectCode": null,
+                "department": 3,
+                "ifConcert": 0,
+                "ganttNo": "d0cb34fe9de9403fb23946d1e26bfa5b",
+                "departmentName": "南山区大湾区中心",
+                "area": "bc36f7c6e43843659acf4353495e3aef",
+                "street": "6",
+                "government": 2,
+                "isRoom": 1,
+                "investment": 45900,
+                "cumulative": 121000,
+                "remainingQuota": -18600,
+                "planInvest": null,
+                "time": null,
+                "projectStatus": 4,
+                "accumulatedInvestment": 375,
+                "monthInvest": 6,
+                "month": "202305",
+                "projectValues": null,
+                "completeRate": null,
+                "completeRateMonthly": null,
+                "buildingSafetyMonth": null,
+                "equipmentPurchaseMonth": null,
+                "otherFeeMonth": null,
+                "landPriceMonth": null,
+                "buildingSafetyTotal": null,
+                "equipmentPurchaseTotal": null,
+                "otherFeeTotal": null,
+                "landPriceTotal": null,
+                "planInvestNext": 0,
+                "investProgress": 7,
+                "ifKeyProject": null,
+                "startDate": "2018-11-01 00:00:00",
+                "endDate": "2022-12-01 00:00:00",
+                "address": null,
+                "ifFull": null,
+                "planInvestSecond": null,
+                "plateformTotal": null,
+                "predictionTotal": 100,
+                "predictionX1Total": null
+            },
+            "geometry": {
+                "type": "MultiPolygon",
+                "coordinates": [
+                    [
+                        [
+                            [
+                                113.935606735000079,
+                                22.51168345800005
+                            ],
+                            [
+                                113.936225653000065,
+                                22.511691408000047
+                            ],
+                            [
+                                113.936251322000089,
+                                22.510896412000022
+                            ],
+                            [
+                                113.93561529100009,
+                                22.510904362000076
+                            ],
+                            [
+                                113.935606735000079,
+                                22.51168345800005
+                            ]
+                        ]
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "OBJECTID": 6,
+                "name": "鹏瑞深圳湾壹号广场南地块三期",
+                "Shape_Leng": 0.00294733136,
+                "Shape_Area": 5.3203e-07,
+                "id": "202209120356",
+                "name2": "鹏瑞深圳湾壹号广场南地块三期",
+                "unit": "深圳市鹏瑞发展控股集团有限公司",
+                "industryCode": "3",
+                "projectCode": null,
+                "department": 3,
+                "ifConcert": 0,
+                "ganttNo": "346a60ad4c60b2117ab500893964ecb9",
+                "departmentName": "南山区大湾区中心",
+                "area": "bc36f7c6e43843659acf4353495e3aef",
+                "street": "6",
+                "government": 2,
+                "isRoom": 0,
+                "investment": 450000,
+                "cumulative": 462000,
+                "remainingQuota": 5400,
+                "planInvest": null,
+                "time": null,
+                "projectStatus": 4,
+                "accumulatedInvestment": 17500,
+                "monthInvest": 1600,
+                "month": "202305",
+                "projectValues": null,
+                "completeRate": null,
+                "completeRateMonthly": null,
+                "buildingSafetyMonth": null,
+                "equipmentPurchaseMonth": null,
+                "otherFeeMonth": null,
+                "landPriceMonth": null,
+                "buildingSafetyTotal": null,
+                "equipmentPurchaseTotal": null,
+                "otherFeeTotal": null,
+                "landPriceTotal": null,
+                "planInvestNext": 0,
+                "investProgress": 7,
+                "ifKeyProject": null,
+                "startDate": null,
+                "endDate": "2018-02-09 00:00:00",
+                "address": "南山区东滨路与科苑大道交汇处西北侧",
+                "ifFull": null,
+                "planInvestSecond": null,
+                "plateformTotal": null,
+                "predictionTotal": 0,
+                "predictionX1Total": null
+            },
+            "geometry": {
+                "type": "MultiPolygon",
+                "coordinates": [
+                    [
+                        [
+                            [
+                                113.937145443000077,
+                                22.509096299000078
+                            ],
+                            [
+                                113.93781879900007,
+                                22.509100588000024
+                            ],
+                            [
+                                113.937793065000051,
+                                22.508457254000064
+                            ],
+                            [
+                                113.936939577000089,
+                                22.50845296600005
+                            ],
+                            [
+                                113.937016777000053,
+                                22.509096299000078
+                            ],
+                            [
+                                113.937145443000077,
+                                22.509096299000078
+                            ]
+                        ]
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "OBJECTID": 7,
+                "name": "鹏瑞深圳湾壹号广场南地块二期",
+                "Shape_Leng": 0.00289277035,
+                "Shape_Area": 5.1404e-07,
+                "id": "202209120357",
+                "name2": "鹏瑞深圳湾壹号广场南地块二期",
+                "unit": "深圳市鹏瑞发展控股集团有限公司",
+                "industryCode": "3",
+                "projectCode": null,
+                "department": 3,
+                "ifConcert": 0,
+                "ganttNo": "626a60ad4c60b2110b86d26c7047da7e",
+                "departmentName": "南山区大湾区中心",
+                "area": "bc36f7c6e43843659acf4353495e3aef",
+                "street": "6",
+                "government": 2,
+                "isRoom": 0,
+                "investment": 220000,
+                "cumulative": 213000,
+                "remainingQuota": 7900,
+                "planInvest": null,
+                "time": null,
+                "projectStatus": 4,
+                "accumulatedInvestment": 475,
+                "monthInvest": 41,
+                "month": "202305",
+                "projectValues": null,
+                "completeRate": null,
+                "completeRateMonthly": null,
+                "buildingSafetyMonth": null,
+                "equipmentPurchaseMonth": null,
+                "otherFeeMonth": null,
+                "landPriceMonth": null,
+                "buildingSafetyTotal": null,
+                "equipmentPurchaseTotal": null,
+                "otherFeeTotal": null,
+                "landPriceTotal": null,
+                "planInvestNext": 0,
+                "investProgress": 7,
+                "ifKeyProject": null,
+                "startDate": null,
+                "endDate": null,
+                "address": null,
+                "ifFull": null,
+                "planInvestSecond": null,
+                "plateformTotal": null,
+                "predictionTotal": 20,
+                "predictionX1Total": null
+            },
+            "geometry": {
+                "type": "MultiPolygon",
+                "coordinates": [
+                    [
+                        [
+                            [
+                                113.937793065000051,
+                                22.508457254000064
+                            ],
+                            [
+                                113.93781879900007,
+                                22.509100588000024
+                            ],
+                            [
+                                113.93860152100001,
+                                22.509104877000027
+                            ],
+                            [
+                                113.938637977000099,
+                                22.508485132000033
+                            ],
+                            [
+                                113.937793065000051,
+                                22.508457254000064
+                            ]
+                        ]
+                    ]
+                ]
+            }
+        }
+    ]
+}
